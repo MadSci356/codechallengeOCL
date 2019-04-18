@@ -31,6 +31,9 @@ MISS = "<UNKNOWN>"
 #number of characters for line wrap in pet description
 WRAP_TEXT = 70
 
+#searches
+count = int(0)
+
 
 #----functions----#
 """
@@ -56,8 +59,12 @@ WRAP_TEXT = 70
         Description: wrapped with 70 words.
             new lines indented twice."""
 def json_to_normal(data, args):
-    #TODO: print search criteria used
-    #TODO: summary of search
+    #search info and summary
+    print(f"Searching for {args.type} in {args.location}")
+    global count
+    count = int(data["petfinder"]["lastOffset"]) - count
+    print(f"Found {count} {args.type} in {args.location}")
+    print("Pets:")
     pets = data["petfinder"]["pets"]
     for pet in pets:
         #get all the relevant fields for a pet
@@ -88,11 +95,8 @@ def json_to_normal(data, args):
         wrapped = "\n".join(wrapper.wrap(description))
 
         #printing output
-        output = "Name: {} \n\t" + \
-                 "Age: {} \n\t" + \
-                "Sex: {} \n\t" + \
-                "Photo: {}\n\t" + \
-                "Description: {}\n\t"
+        output = "Name: {} \n\t" + "Age: {} \n\t" + "Sex: {} \n\t" + \
+                "Photo: {}\n\t" + "Description: {}\n\t"
         print(output.format(name, age, sex, url, wrapped))
         # print(f"Name: {name} \n\t Age: {age} \n\t Sex: {sex} \n\t\
         # Photo: {url} \n\tDescription: {description}")
