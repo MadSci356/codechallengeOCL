@@ -91,7 +91,8 @@ def json_to_normal(data, args):
 
         description = get_value(pet, "description")
         #wrapping and formatting lines
-        wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t')
+        wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t', \
+        break_long_words=False,replace_whitespace=False)
         wrapped = "\n".join(wrapper.wrap(description))
 
         #printing output
