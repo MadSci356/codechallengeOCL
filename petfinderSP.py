@@ -56,7 +56,7 @@ def json_to_normal():
     pets = data["petfinder"]["pets"]
     for pet in pets:
         name = get_value(pet, "name")
-        if (name != MISS) {#capitali
+        if (name != MISS) {#capitalize
             name = name.capitalize()
         }
         #age
