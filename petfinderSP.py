@@ -32,7 +32,7 @@ MISS = "<UNKNOWN>"
 WRAP_TEXT = 70
 
 #searches
-count = int(0)
+count = 0
 
 
 #----functions----#
