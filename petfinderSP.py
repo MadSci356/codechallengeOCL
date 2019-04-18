@@ -70,17 +70,19 @@ def json_to_normal(data, args):
         sex = get_value(pet, "sex")
 
         #to get url: pet->media->photos->url
+
         media = get_value(pet, "media")
-        #check if media was a valid entry
+        #check if media is valid
         photos = []
+        url = MISS
         if (media != MISS and media != None):
             photos = get_value(media, "photos")
-        #check photos was a miss
-        url = MISS
-        if (photos != MISS and photos != None):
-            url = get_value(photos[0], "url")
-        description = get_value(pet, "descripion")
+            #check photos is valid
+            if (photos != MISS and photos != None):
+                url = get_value(photos[0], "url")
 
+
+        description = get_value(pet, "description")
         #wrapping and formatting lines
         wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t')
         wrapped = "\n".join(wrapper.wrap(description))
@@ -90,8 +92,8 @@ def json_to_normal(data, args):
                  "Age: {} \n\t" + \
                 "Sex: {} \n\t" + \
                 "Photo: {}\n\t" + \
-                "Description: {}\n\t {}"
-        print(output.format(name, age, sex, url, wrapped, ""))
+                "Description: {}\n\t"
+        print(output.format(name, age, sex, url, wrapped))
         # print(f"Name: {name} \n\t Age: {age} \n\t Sex: {sex} \n\t\
         # Photo: {url} \n\tDescription: {description}")
 
@@ -102,7 +104,6 @@ def get_value(pet, key):
     try:
         value = pet[key]
     except KeyError: #key missing
-        print("key error for " + key)
         return MISS
 
     #key exists but check if val is null or of len 0
