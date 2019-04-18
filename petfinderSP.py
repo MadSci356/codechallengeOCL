@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
 
-import argparse
-import requests
-import json
+import argparse, requests, json
 import sys
+from textwrap import TextWrapper
 
 """
 petfinderSP is a command line tool to help search for pets of a given type and
@@ -21,12 +20,18 @@ Author: Sayam Patel (sdpate11 AT ncsu.edu)
 Date created: Apr 17 2019
 """
 
-#constants and global vars
-PFAPI_OK = 100 #valid search result status from API
-MISS = "<UNKNOWN>" #value inplace of key:val pair missing from dictionary
-data = {} #dictionary for holding data from reponse
+#constants
 
-#functions
+#valid search result status from API
+PFAPI_OK = 100
+
+#value inplace of key:val pair missing from dictionary
+MISS = "<UNKNOWN>"
+#number of characters for line wrap in pet description
+WRAP_TEXT = 70
+
+
+#----functions----#
 """
     Prints human readable text from the data dictionary of pet searches.
    data is assumed to have format:
@@ -36,7 +41,7 @@ data = {} #dictionary for holding data from reponse
    where each pet in the pets list has format:
     {...,
      age: "adult",
-     media: {photos: [{url= "..."}, ...]},
+     media: {photos: [{url:"..."}, ...]},
      name: "whiskers",
      sex: "M/F",
      description: "..." }
@@ -49,28 +54,50 @@ data = {} #dictionary for holding data from reponse
         Photo: url
         Description: wrapped with 70 words.
             new lines indented twice."""
-def json_to_normal():
-
+def json_to_normal(data, args):
     #TODO: print search criteria used
     #TODO: summary of search
     pets = data["petfinder"]["pets"]
     for pet in pets:
+        #get all the relevant fields for a pet
         name = get_value(pet, "name")
-        if (name != MISS) {#capitalize
+        if (name != MISS): #capitalize
             name = name.capitalize()
-        }
-        #age
-        #Sex
-        #photo url
-        #Desc
+
+        #gettig rest of fields
+        age = get_value(pet, "age")
+        sex = get_value(pet, "sex")
+        media = get_value(pet, "media")
+        photos = get_value(media, "photos")
+        url = MISS #initially miss incase photos is a miss as well
+        if (photos != MISS):
+            url = get_value(photos[0], "url")
+        description = get_value(pet, "descripion")
+
+        #wrapping and formatting lines
+        wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t')
+        wrapped = "\n".join(wrapper.wrap(description))
+
+        #printing output
+        output = "Name: {} \n\t" + \
+                 "Age: {} \n\t" + \
+                "Sex: {} \n\t" + \
+                "Photo: {}\n\t" + \
+                "Description: {}\n\t {}"
+        print(output.format(name, age, sex, url, wrapped, ""))
+        # print(f"Name: {name} \n\t Age: {age} \n\t Sex: {sex} \n\t\
+        # Photo: {url} \n\tDescription: {description}")
+
 
 
 def get_value(pet, key):
+    breakpoint()
     value = ""
     try:
         value = pet[key]
     except KeyError: #key missing
-        value = MISS
+        print("key error for " + key)
+        return MISS
     if len(value) == 0: #value is empty
         value = MISS
     return value
@@ -117,4 +144,4 @@ if (code != PFAPI_OK): #error from API
 if (args.json): #raw json format
         print(data)
 else:
-    json_to_normal(data)
+    json_to_normal(data, args)

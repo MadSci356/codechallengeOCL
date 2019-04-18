@@ -1,1 +1,926 @@
-[{'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'L', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/2/?bust=1499422018&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/2/?bust=1499422018&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/2/?bust=1499422018&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/2/?bust=1499422018&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/2/?bust=1499422018&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/3/?bust=1515632158&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/3/?bust=1515632158&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/3/?bust=1515632158&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/3/?bust=1515632158&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/3/?bust=1515632158&width=50&-t.jpg', 'id': '3'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/4/?bust=1515632159&width=60&-pnt.jpg', 'id': '4'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/4/?bust=1515632159&width=95&-fpm.jpg', 'id': '4'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/4/?bust=1515632159&width=500&-x.jpg', 'id': '4'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/4/?bust=1515632159&width=300&-pn.jpg', 'id': '4'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/4/?bust=1515632159&width=50&-t.jpg', 'id': '4'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/5/?bust=1515632159&width=60&-pnt.jpg', 'id': '5'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/5/?bust=1515632159&width=95&-fpm.jpg', 'id': '5'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/5/?bust=1515632159&width=500&-x.jpg', 'id': '5'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/5/?bust=1515632159&width=300&-pn.jpg', 'id': '5'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/5/?bust=1515632159&width=50&-t.jpg', 'id': '5'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/37752652/6/?bust=1515632160&width=60&-pnt.jpg', 'id': '6'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/37752652/6/?bust=1515632160&width=95&-fpm.jpg', 'id': '6'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/37752652/6/?bust=1515632160&width=500&-x.jpg', 'id': '6'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/37752652/6/?bust=1515632160&width=300&-pn.jpg', 'id': '6'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/37752652/6/?bust=1515632160&width=50&-t.jpg', 'id': '6'}]}, 'id': '37752652', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Maximus', 'sex': 'M', 'description': 'Maximus\n\nEst. DOB July 3, 2016\nDescription: DSH Gray Cream Classic (Marble) Tabby with White\nGender: Male\nAdoption Fee: $110.00\n\nMaximus, aka Max, is a very sweet, handsome, and large boy.  He loves attention, playing, and looking out the window from high places. He is extremely high energy and needs a home ready for that.  Max may be too much for some submissive cats. With gradual introductions, he has learned to get along with some cats, and even cuddles with them, if they let him. Max would do well with another large, energetic playmate who wonâ\x80\x99t back down if Max comes on strong. \n\nTo introduce Max to other cats and set boundaries, he will need a room of his own for a few weeks, with gradually increasing supervised freedom. To set clear boundaries and rules, Max has learned that a couple of hours time-out alone in his room means he broke the rules, and heâ\x80\x99s smart enough to figure out what rule he broke (each time) after a couple of immediate time-outs. But he may sing you the jailhouse blues. Max doesnâ\x80\x99t seem to like dogs very much and would do better in a home without dogs. He even threatened a picture of a dog once at the vetâ\x80\x99s office!\n\nMax came to us from a Good Samaritan in rural North Carolina. \n\nFully vetted: tested for FeLV/FIV (negative unless otherwise noted); treated for intestinal parasites, fleas, and ear mites; FVRCP+FeLV vaccinated (initial vaccination and booster); and rabies vaccinated; spayed/neutered; microchipped with Home Again microchips with rescue paid registration.\n', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2017-03-31T21:38:54Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42206913/2/?bust=1531835844&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42206913/2/?bust=1531835844&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42206913/2/?bust=1531835844&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42206913/2/?bust=1531835844&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42206913/2/?bust=1531835844&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42206913/3/?bust=1533770619&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42206913/3/?bust=1533770619&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42206913/3/?bust=1533770619&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42206913/3/?bust=1533770619&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42206913/3/?bust=1533770619&width=50&-t.jpg', 'id': '3'}]}, 'id': '42206913', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Toffee', 'sex': 'F', 'description': 'Toffee\nEst. DOB: May 17, 2016\nDescription: DSH Tabbico\nGender: Female\n\nToffee is an unusual, special girl. While it might take her a while to settle in to her new home, once she does, her quirky personality will shine. She loves to play! She particularly likes the laser pointer and all catnip toys. Toffee is a tech savvy girl. If you have an iPad, she will love to sit with you and help you check Email and Facebook. She especially likes to play a fishing game (available as a free app from Friskies) and has a high score of 810. If you watch a video with kittens meowing she will try to find those kittens. Once she feels comfortable in her new home, she will crawl up into your lap and take a nap. She sometimes gets overstimulated and needs a short break from playing. Toffee gets along well with other cats and cat friendly dogs after slow and proper introductions. She wants to play with them and doesnâ\x80\x99t understand why they donâ\x80\x99t want to play with her all the time.\n\nToffee was left behind when her owner moved. She had kittens within days of being abandoned. She and her kittens were taken care of by a good Samaritan until they came to Alley Cats and Angels.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-17T13:58:49Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained', 'noKids'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=50&-t.jpg', 'id': '1'}]}, 'id': '42207598', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Tahji', 'sex': 'M', 'description': 'Tahji\nEst. DOB: June 22, 2016\nDescription: DSH Charcoal Gray / Russian Blue Mix\nGender: Male\n\nTahji is a strikingly handsome guy that was found as a stray. He has a strong personality and LOVES men and will do fine with an experienced female cat owner as well. Tahji is sensitive to his environment and would do best in a calmer house with no children under 10 so he can establish a routine. Unfortunately, this is also the reason he gets stressed at adoption events and does not do well. Due to this he will need an adjustment period of a few days after he is adopted, but once he settles in he will be a great cat. Wet food definitely helps him in almost any situation! Tahji does well with foster momâ\x80\x99s two large dogs, two cats and two teenagers. He may "annoy" a cat that does not want to play, but generally gets along well with other cats.\n\nClearly as a kitten he was played rough with and was used to â\x80\x9chand wrestlingâ\x80\x9d. This is something weâ\x80\x99ve been working on. Fortunately, he does not use his claws! Tahji still gets frisky in the evening and will need to release some of that energy with playing. Other times, if you are chilling on the couch then he will join you and often will crawl on your chest with a quiet purr. He is always very social, will follow his humans everywhere and has a full vocabulary of trills and chirps to talk with! Tahji is always ready to join in the bathroom for a drink from the sink or bathtub faucet! Tahji was found as a stray in a volunteerâ\x80\x99s neighborhood.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-17T17:03:49Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained', 'noKids'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Senior', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42207623/2/?bust=1531847173&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42207623/2/?bust=1531847173&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42207623/2/?bust=1531847173&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42207623/2/?bust=1531847173&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42207623/2/?bust=1531847173&width=50&-t.jpg', 'id': '2'}]}, 'id': '42207623', 'shelterPetId': None, 'breeds': ['Domestic Medium Hair'], 'name': 'Misty', 'sex': 'F', 'description': 'Misty\nEst. DOB: August 6, 2011\nDescription: DMH Calico\nGender: Female\n\nMisty came to us in 2012 as a one year old kitty and was later adopted by a member of our group. While she was loved very much, her adopter had to give her up due to an elderly parent moving in who was highly allergic to cats. Misty is visually impaired. She doesnâ\x80\x99t see well in low light situations, so her pupils often appear dilated. But given some well-lit rooms and some extra attention, she has blossomed! She went from being a kitty who hid in dark places all the time, to one who canâ\x80\x99t wait to explore the house. And now she runs through the house almost like a normal kitty. She loves to follow her foster mom around and rub up against her, but has not yet become accustomed to sitting in a lap. She loves to play with toys that she can see well and has never missed the litter pan. \n\nShe is a very curious, intelligent and playful kitty who acts more like a young kitten than a grown cat. Misty gets along fine with other cats and would probably do OK in a house with a calm or older dog, but would not do well in a home with young children.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-17T17:08:48Z', 'animal': 'Cat'}, {'options': ['specialNeeds', 'altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42207643/2/?bust=1541001876&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42207643/2/?bust=1541001876&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42207643/2/?bust=1541001876&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42207643/2/?bust=1541001876&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42207643/2/?bust=1541001876&width=50&-t.jpg', 'id': '2'}]}, 'id': '42207643', 'shelterPetId': None, 'breeds': ['Domestic Medium Hair'], 'name': 'Neha', 'sex': 'F', 'description': 'Neha\nEst. DOB: April 13, 2017\nDescription: DMH Mostly White Calico\nGender: Female\n\nNeha is an adventurous, playful young adult. Her high energy play might be better suited to cats or dogs her own age, or younger, as she tends to annoy staid adult cats by taking playful swipes at them. She likes to go exploring and has been known to slip through the door to the garage or outside if she can, so her new family will need to be vigilant! She is affectionate and purrs when held, but cuddle time cuts into her play and exploring time, so she doesnâ\x80\x99t want to do it for long. Neha needs to be redirected to appropriate play outlets when she signals her impatience with being held by arm nibbling. Neha likes to sleep in the bed with her foster mom, but doesnâ\x80\x99t always like to share the bed with other cats. Her favorite toy is a plastic ball that no longer jingles. She loves to bat it around and pick it up in her mouth and carry it around with her. Neha is one of the cats and kittens that came to us from a small rural rescue.\n\nNeha has a small hole in her heart (ventricular septal defect) and a loud heart murmur, but has been seen by a cardiologist vet and has had two echocardiograms six months apart. Her last echo was April 18, 2018 and showed that her heart condition has not gotten worse. At this time, no medication or intervention is needed but her heart should be periodically checked (recommend recheck and another echo in one year). Her forever family will need to be diligent and watch for abnormal breathing.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'yes', 'shelterId': 'NC615', 'lastUpdate': '2018-07-17T17:14:46Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=50&-t.jpg', 'id': '1'}]}, 'id': '43500159', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Blueberry', 'sex': 'M', 'description': 'Blueberry\nEst. DOB: May 11, 2018\nDescription: DSH White and Black â\x80\x9cCow Kittyâ\x80\x9d\nGender: Male\n\nBlueberry is a little timid at first but warms up quickly. He loves to be by his foster momâ\x80\x99s side, on her lap, or even underfoot! His favorite activity is chasing feet. It is so adorable! He also loves to play with toys and other kittens/cats.\n\nBlueberry would love to find his forever family and will be sure to give them lots of love.\n\nBlueberry was found living as a stray behind a Waffle House when he was about 6 months old. A Good Samaritan took him in and kept him for a few weeks until the rescue had space in their foster program.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-12-09T19:20:11Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42200255/2/?bust=1546613157&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42200255/2/?bust=1546613157&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42200255/2/?bust=1546613157&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42200255/2/?bust=1546613157&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42200255/2/?bust=1546613157&width=50&-t.jpg', 'id': '2'}]}, 'id': '42200255', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Lumos', 'sex': 'M', 'description': 'Lumos\nEst. DOB: April 8, 2018\nDescription: DSH Black\nGender: Male\n\nLumos is one of several kittens named for spells from the Harry Potter series. Heâ\x80\x99s quite the lovebug and likes to â\x80\x9cbe all up in your grillâ\x80\x9d. He loves to walk with you or between your legs. Heâ\x80\x99ll hang out with you when you read or watch television. He likes to investigate your shopping bags to perform quality control.\n\nLumos loves to play with most toys and with his siblings and foster siblings. He does well with other cats and kittens.\n\nThe Harry Potter Spells Gray/Black kittens were found near a church. They were most likely dumped because they were very friendly and not at all feral. They were taken in when they were about 4 weeks old.\n\nLumos is one of our FABULOUS NINJA HOUSE PANTHERS!\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-16T19:19:51Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=50&-t.jpg', 'id': '1'}]}, 'id': '42200983', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Pileus', 'sex': 'M', 'description': 'Pileus\nEst. DOB: April 3, 2018\nDescription: DSH White with Black Smudge on Head\nGender: Male\n\nMy foster mom calls me her little clumsy clown because I am always doing something funny. I enjoy a lot of attention and love kisses and snuggles. I am quite a busy little fellow and enjoy playing with feathers, the ball tower and jingly balls. I love bags and boxes and find them super nice to explore and hide in, so I can attack your feet when you walk by. I am really a cute prankster. I enjoy climbing also but not too high. If you want an all-around good boy, then Iâ\x80\x99m your guy and I never turn down a nice lap and a warm bed right beside you. I am good with cats, kittens and a cat friendly dog after proper introductions.\n\nThe Cloud kittens were born to a feral mom that was dropped off at someoneâ\x80\x99s house just three days before she gave birth.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-16T19:54:22Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43530279/2/?bust=1544722279&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43530279/2/?bust=1544722279&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43530279/2/?bust=1544722279&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43530279/2/?bust=1544722279&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43530279/2/?bust=1544722279&width=50&-t.jpg', 'id': '2'}]}, 'id': '43530279', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Pogo', 'sex': 'F', 'description': 'Pogo\nEst. DOB: March 22, 2018\nDescription: DSH Black\nGender: Female\n\nMy name is Pogo and I am a sweet, petite girl who loves to play. My gorgeous, shiny black coat is not only one of my best features but feels silky to the touch. My favorite game is chase. I love playing with "da bird" toy and when I catch it, I am so happy!Â\xa0 I run and prance and put my tail up.Â\xa0 Then I run to a corner, so  my siblings can\'t get it. You see, my siblings are bigger than me and I tend to hang back and let them play while I watch. I am a patient girl, but when it\'s my turn to play, I shine. I also have the most adorable habit.Â\xa0 When I eat I make a sort of Num, Num, Num sound.Â\xa0 Some folks say it sounds a little like I\'m growling, but if you listen closely you can hear my happiness. My foster family thinks it is hysterical.Â\xa0 And my sibling, Yo-Yo does it also. I am quite the lady of the house, as I am patient and kind, but have a fun, boisterous personality and will not ignored if I don\'t want to be.Â\xa0 I enjoy going onto the screened patio but lately it has been too cold.Â\xa0 I am still getting used to the idea of being held, but I do like to sleep near you in bed and keep you warm. Will you be my forever family?Â\xa0 I promise you will not regret it.Â\xa0\n\nYoyo, Pogo, and Frisbee were rescued from WCAS when they were brought in close to closing time and were too young to eat on their own and stay at the shelter and would have been put to sleep. \n\nPogo is one of our FABULOUS NINJA HOUSE PANTHERS!\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-12-13T17:35:22Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692218/2/?bust=1547126751&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692218/2/?bust=1547126751&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692218/2/?bust=1547126751&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692218/2/?bust=1547126751&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692218/2/?bust=1547126751&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692218/3/?bust=1547126752&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692218/3/?bust=1547126752&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692218/3/?bust=1547126752&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692218/3/?bust=1547126752&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692218/3/?bust=1547126752&width=50&-t.jpg', 'id': '3'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692218/4/?bust=1547126753&width=60&-pnt.jpg', 'id': '4'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692218/4/?bust=1547126753&width=95&-fpm.jpg', 'id': '4'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692218/4/?bust=1547126753&width=500&-x.jpg', 'id': '4'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692218/4/?bust=1547126753&width=300&-pn.jpg', 'id': '4'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692218/4/?bust=1547126753&width=50&-t.jpg', 'id': '4'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692218/5/?bust=1547126753&width=60&-pnt.jpg', 'id': '5'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692218/5/?bust=1547126753&width=95&-fpm.jpg', 'id': '5'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692218/5/?bust=1547126753&width=500&-x.jpg', 'id': '5'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692218/5/?bust=1547126753&width=300&-pn.jpg', 'id': '5'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692218/5/?bust=1547126753&width=50&-t.jpg', 'id': '5'}]}, 'id': '42692218', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Eager', 'sex': 'M', 'description': 'Eager\nEst. DOB: May 15, 2018\nDescription: DSH Black and White Tuxedo â\x80\x93 Black Chin\nGender: Male\n\nEager is a handsome tuxedo. He is very active and playful and likes to do his own thing or hang out with his siblings. He loves to play and sleep with his siblings or any sort of toy. Although he is not big on snuggles, he will settle down near his foster mom for a rest.\n\nEagerâ\x80\x99s favorite toy is his own tail! He is a very determined tail chaser.\n\nThe E kittens were taken in from a feral colony in Dunn, where TNR is underway.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-09-07T17:51:59Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43500186/2/?bust=1544383559&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43500186/2/?bust=1544383559&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43500186/2/?bust=1544383559&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43500186/2/?bust=1544383559&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43500186/2/?bust=1544383559&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43500186/3/?bust=1544383562&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43500186/3/?bust=1544383562&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43500186/3/?bust=1544383562&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43500186/3/?bust=1544383562&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43500186/3/?bust=1544383562&width=50&-t.jpg', 'id': '3'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43500186/4/?bust=1544383578&width=60&-pnt.jpg', 'id': '4'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43500186/4/?bust=1544383578&width=95&-fpm.jpg', 'id': '4'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43500186/4/?bust=1544383578&width=500&-x.jpg', 'id': '4'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43500186/4/?bust=1544383578&width=300&-pn.jpg', 'id': '4'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43500186/4/?bust=1544383578&width=50&-t.jpg', 'id': '4'}]}, 'id': '43500186', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Friday', 'sex': 'F', 'description': 'Friday\nEst. DOB: May 18, 2018\nDescription: DSH Calico\nGender: Female\n\nFriday is a beautiful calico with a distinct pattern of orange and black with a mostly white underbelly. Her foster dad calls her a â\x80\x9cpatchwork quilt of colorsâ\x80\x9d. She is a skittish but loving girl and took a few weeks to come out of her easy to startle kitten days. Now she loves time in her foster dadâ\x80\x99s arms or sleeping next to him in bed. She does okay with other cats as long as they donâ\x80\x99t startle or play pounce on her; she is not into roughhousing. Friday does love chasing a laser light, wand toys, and paper balls which she will occasionally bring and drop beside her foster dad.\n\nFriday will need a little time and extra patience to settle in with her future family, but she is worth the extra time invested. Friday goes crazy for the Temptations brand of kitten treats.\n\nFriday earned the nickname â\x80\x9cJawsâ\x80\x9d when she was rescued because her jaw was split in two and she had a fracture on the side of her jaw. Poor girl had to have her jaw wired for 8 weeks so it would heal. It will also be slightly askew, but she is doing great.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-12-09T19:27:30Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42200387/2/?bust=1546613303&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42200387/2/?bust=1546613303&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42200387/2/?bust=1546613303&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42200387/2/?bust=1546613303&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42200387/2/?bust=1546613303&width=50&-t.jpg', 'id': '2'}]}, 'id': '42200387', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Wingardium Leviosa', 'sex': 'F', 'description': 'Wingardium Leviosa\nEst. DOB: April 8, 2018\nDescription: DSH Black\nGender: Female\n\nWingardium Leviosa is one of several kittens named for spells from the Harry Potter series. She has short black fur and a curious nature. Wingie loves to play â\x80\x9ctouch nosesâ\x80\x9d or â\x80\x9cpaw your chinâ\x80\x9d for a while before taking a snooze. She likes to sit on your shoulder and be a party kitty and also loves chin scratches. Wingie has a soft purr. She likes belly rubs and may want to nibble on your hand and fingers during the time.\n\nWingie does well with other cats and kittens.\n\nThe Harry Potter Spells Gray/Black kittens were found near a church. They were most likely dumped because they were very friendly and not at all feral. They were taken in when they were about 4 weeks old.\n\nLeviosa is one of our FABULOUS NINJA HOUSE PANTHERS!\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-16T19:27:49Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43530311/2/?bust=1544722633&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43530311/2/?bust=1544722633&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43530311/2/?bust=1544722633&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43530311/2/?bust=1544722633&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43530311/2/?bust=1544722633&width=50&-t.jpg', 'id': '2'}]}, 'id': '43530311', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Yoyo', 'sex': 'F', 'description': 'Yoyo\nEst. DOB: March 22, 2018\nDescription: DSH Black â\x80\x93 few white strands of hair on throat\nGender: Female\n\nHi all!Â\xa0 My name is Yo-Yo! I am a rough and tumble girl who love to wrestle with my siblings, Pogo and Frisbee. We are always running around the house and chasing each other.Â\xa0 Sometimes, I am in the lead and they are chasing me and sometimes I am chasing them.Â\xa0 It doesn\'t matter because it is always fun, fun, fun! I enjoy playing with "da bird"Â\xa0 toy.Â\xa0Which is always a great time.Â\xa0 I get so excited and want to get that "da bird" so much that I jump up real high and snatch it right out of the air!Â\xa0 My jumping  skills are quite impressive!Â\xa0 And I get it about 95% of the time.Â\xa0 (I would say 97% but I don\'t want to brag). I can also be a snuggle bug at times and will crawl into the crook of your arm or leg and fall fast asleep.Â\xa0 I like soft blankets and warm beds.Â\xa0 Sometimes my foster mom will be on the computer and I will jump on her lap and start purring away.Â\xa0 Did I mention that I have a great purr!! I would probably do best if I had another cat to play and wrestle with. Want to be my forever person?Â\xa0 Adopt me and I will show you what I great cat I am! \n\nMy siblings, Pogo and Frisbee were taken in by the kindhearted people at Allley Cats and Angels after someone dropped us off at the shelter.Â\xa0 We were too young to eat on our own and would have been put to sleep.\n\nYoyo is one of our FABULOUS NINJA HOUSE PANTHERS!\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-12-13T17:40:07Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=50&-t.jpg', 'id': '1'}]}, 'id': '42692236', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Eccentric', 'sex': 'F', 'description': 'Eccentric\nEst. DOB: May 15, 2018\nDescription: DSH Black and White\nGender: Female\n\nEccentric has such unique markings and is very striking. Like her siblings, she is a very active and playful girl and always busy doing her own thing. She loves to play with her siblings or any sort of toy. Although she is not big on snuggles, she will settle down near her foster mom for a rest.\n\nEccentric loves to pick up toys much larger than herself (large stuffed animals) and run around the house with them in her mouth.\n\nThe E kittens were taken in from a feral colony in Dunn, where TNR is underway.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-09-07T17:54:33Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=50&-t.jpg', 'id': '1'}]}, 'id': '42302027', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Hiccup', 'sex': 'M', 'description': 'Hiccup\nEst. DOB: March 31, 2018\nDescription: DSH Black\nGender: Male\n\nHiccup is a very handsome boy. He likes to keep to himself until it is time to snuggle with his foster siblings for a nap. His energy is typical for any kitten and he loves to play with any toy that has a string.\n\nHiccup does fine with other cats, children and even dogs when introduced properly.\n\nThe How To Train Your Dragon kittens were pulled from WCAS when the shelter was at maximum capacity.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2018-07-27T13:19:57Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained', 'noDogs', 'noKids'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Senior', 'size': 'S', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880303/2/?bust=1551717713&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880303/2/?bust=1551717713&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880303/2/?bust=1551717713&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880303/2/?bust=1551717713&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880303/2/?bust=1551717713&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880303/3/?bust=1551717714&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880303/3/?bust=1551717714&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880303/3/?bust=1551717714&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880303/3/?bust=1551717714&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880303/3/?bust=1551717714&width=50&-t.jpg', 'id': '3'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880303/4/?bust=1551717714&width=60&-pnt.jpg', 'id': '4'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880303/4/?bust=1551717714&width=95&-fpm.jpg', 'id': '4'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880303/4/?bust=1551717714&width=500&-x.jpg', 'id': '4'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880303/4/?bust=1551717714&width=300&-pn.jpg', 'id': '4'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880303/4/?bust=1551717714&width=50&-t.jpg', 'id': '4'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880303/5/?bust=1551717715&width=60&-pnt.jpg', 'id': '5'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880303/5/?bust=1551717715&width=95&-fpm.jpg', 'id': '5'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880303/5/?bust=1551717715&width=500&-x.jpg', 'id': '5'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880303/5/?bust=1551717715&width=300&-pn.jpg', 'id': '5'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880303/5/?bust=1551717715&width=50&-t.jpg', 'id': '5'}]}, 'id': '43880303', 'shelterPetId': None, 'breeds': ['Siamese'], 'name': 'Clarissa Explains It All', 'sex': 'F', 'description': 'Clarissa Explains It All\nEst. DOB: August 30, 2010\nDescription: Chocolate Point Siamese\nGender: Female\n\nClarissa Explains It All is such a tiny cat for such a big name! She enjoys cozy spaces and quiet corners to curl up like a loaf and nap when sheâ\x80\x99s alone. But if you are around she will come running for attention! Clarissa isnâ\x80\x99t much of a climber, but she might make herself a napping nook by pushing things around on a bottom shelf. Her favorite bed at her foster home is a folded-up blanket in a sideways cardboard box.\n\nClarissa loves (and needs) to be brushed regularly. Sometimes, she gets a little snippy when you put the brush away! She has a particular personality and some princess-like demands. She prefers canned food and in fact, without canned food mixed 50/50 with water, she doesnâ\x80\x99t get quite enough to drink and gets dehydrated easily. Thereâ\x80\x99s nothing medically wrong with her, she just prefers her water to be Fancy Feast flavored! She also would much rather drink from a glass or ceramic bowl than plastic or metal, to the point of just not drinking water at all.\n\nClarissa was pulled as an adult from WCAS, where she was adopted and returned twice because she doesnâ\x80\x99t get along with kids or dogs.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-01-28T14:30:25Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44212996/2/?bust=1552415218&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44212996/2/?bust=1552415218&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44212996/2/?bust=1552415218&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44212996/2/?bust=1552415218&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44212996/2/?bust=1552415218&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44212996/3/?bust=1552415219&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44212996/3/?bust=1552415219&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44212996/3/?bust=1552415219&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44212996/3/?bust=1552415219&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44212996/3/?bust=1552415219&width=50&-t.jpg', 'id': '3'}]}, 'id': '44212996', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Etouffee', 'sex': 'F', 'description': 'Etouffee\nEst. DOB: September 13, 2017\nDescription: DSH Black with white â\x80\x9cbikiniâ\x80\x9d\nGender: Female\n\nKittyTinder Profile\n- Likes: sitting in the cat tree and minding her own business\n- Dislikes: people who donâ\x80\x99t mind their own business\n- Hobbies: listening to Cheap Trick while drinking mai tais\n- Future plans: create the first home shopping network just for cats\n\nÃ\x89touffÃ©e is a sweet black cat with expressive eyes and cute patches of white on her chest and belly. Sheâ\x80\x99s not very playful, but she is very sweet. Ã\x89touffÃ©e had a rough start to life, as she came from a stressful hoarding situation. She is very shy at first and it takes a long time to earn her trust. After mostly just hiding for a month in her latest foster home, she one day just confidently strolled out and started giving loving head butts to her foster mom! Then she asked for chin scratches from foster dad and finally purred. When she does feel comfortable, she enjoys hanging out with you, just chilling and watching whatever you are doing. If you really want to win her over, give her some butt scratches and wet food.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-03-12T18:29:09Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43841762/2/?bust=1548270074&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43841762/2/?bust=1548270074&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43841762/2/?bust=1548270074&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43841762/2/?bust=1548270074&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43841762/2/?bust=1548270074&width=50&-t.jpg', 'id': '2'}]}, 'id': '43841762', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Dolce', 'sex': 'F', 'description': 'Dolce\nEst. DOB: October 9, 2014\nDescription: DSH Gray Cream Tabby\nGender: Female\n\nDolce is a petite lady, who is mostly outgoing when sheâ\x80\x99s around people/cats she likes. In the presence of a cat with a more dominant personality, she may hide under the furniture with her buddy, Axel.\n\nShe enjoys wand toys with dangly strings and hanging out in both high and low places.\n\nDolce will tolerate being held but itâ\x80\x99s not her favorite thing. She enjoys attention and being scratched behind her ears. Dolce is fairly active and chatty when she warms up to you.\n\nDolce and Axel were adopted as kittens and returned when their adopters could no longer provide the best home for them.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-01-23T19:02:59Z', 'animal': 'Cat'}, {'options': ['specialNeeds', 'altered', 'hasShots', 'housetrained', 'noKids'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/39231652/2/?bust=1522182530&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/39231652/2/?bust=1522182530&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/39231652/2/?bust=1522182530&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/39231652/2/?bust=1522182530&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/39231652/2/?bust=1522182530&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/39231652/3/?bust=1522182531&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/39231652/3/?bust=1522182531&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/39231652/3/?bust=1522182531&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/39231652/3/?bust=1522182531&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/39231652/3/?bust=1522182531&width=50&-t.jpg', 'id': '3'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/39231652/4/?bust=1522182531&width=60&-pnt.jpg', 'id': '4'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/39231652/4/?bust=1522182531&width=95&-fpm.jpg', 'id': '4'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/39231652/4/?bust=1522182531&width=500&-x.jpg', 'id': '4'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/39231652/4/?bust=1522182531&width=300&-pn.jpg', 'id': '4'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/39231652/4/?bust=1522182531&width=50&-t.jpg', 'id': '4'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/39231652/6/?bust=1522182532&width=60&-pnt.jpg', 'id': '5'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/39231652/6/?bust=1522182532&width=95&-fpm.jpg', 'id': '5'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/39231652/6/?bust=1522182532&width=500&-x.jpg', 'id': '5'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/39231652/6/?bust=1522182532&width=300&-pn.jpg', 'id': '5'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/39231652/6/?bust=1522182532&width=50&-t.jpg', 'id': '5'}]}, 'id': '39231652', 'shelterPetId': None, 'breeds': ['Domestic Medium Hair'], 'name': 'Emilio', 'sex': 'M', 'description': 'Emilio\n\nEst. DOB: May 22, 2016\nDescription: DMH Orange Tabby\nGender: Male\nAdoption Fee: $110\n\n\nEmilio Estevez is a sweet boy. He has had a long journey and he is a special boy who needs a quiet home without young children.  Emilio loves to snuggle on your lap when it is quiet or you are watching TV. In his foster home, he has become the "Big Brother" to all the new foster siblings that come in.  He loves to play with his siblings and gets along with the dogs in the house. \n\nEmilio has had allergy problems in the past that required a special diet, but is currently doing well on Rachael Ray Nutrish Indoor Formula.\n\nEmilio was rescued from a large feral colony where TNR has finally been completed. \n\nFully vetted: tested for FeLV/FIV (negative unless otherwise noted); treated for intestinal parasites, fleas, and ear mites; FVRCP+FeLV vaccinated (initial vaccination and booster); and rabies vaccinated; spayed/neutered; microchipped with Home Again microchips with rescue paid registration.\n\n', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2017-08-27T15:35:29Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Adult', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880075/2/?bust=1548684980&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880075/2/?bust=1548684980&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880075/2/?bust=1548684980&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880075/2/?bust=1548684980&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880075/2/?bust=1548684980&width=50&-t.jpg', 'id': '2'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43880075/3/?bust=1548684982&width=60&-pnt.jpg', 'id': '3'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43880075/3/?bust=1548684982&width=95&-fpm.jpg', 'id': '3'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43880075/3/?bust=1548684982&width=500&-x.jpg', 'id': '3'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43880075/3/?bust=1548684982&width=300&-pn.jpg', 'id': '3'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43880075/3/?bust=1548684982&width=50&-t.jpg', 'id': '3'}]}, 'id': '43880075', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Dunn', 'sex': 'F', 'description': 'Dunn\nEst. DOB: August 13, 2016\nDescription: DSH Torbie\nGender: Female\n\nDunn is a round little dumpling, who is sweet and outgoing. She has a strong personality and may demonstrate that around less confident cats. Dunn enjoys heights, chin scratches, and belly rubs. She also loves sitting in the cat tree looking out the window. She has been known to explore with her mouth, tasting hands and sometimes running her teeth over them without biting down. She will also grab your hand when she decides you arenâ\x80\x99t done petting her. Dunn is very food motivated, as she arrived as a very nervous cat who had never been inside and had limited contact with people. However, she really opened up to people when she realized where tasty treats come from. She isnâ\x80\x99t a huge fan of being held in your arms but will tolerate it for a little while.\n\nDunn arrived as a young feral mother, and while she was being spayed, her ear was tipped as a community cat before it was realized she is actually quite friendly.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-01-28T14:16:53Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained', 'noDogs'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=50&-t.jpg', 'id': '1'}]}, 'id': '43861972', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Lacerta', 'sex': 'F', 'description': 'Lacerta\nEst. DOB: November 17, 2017\nDescription: DSH Black and White Tuxedo\nGender: Female\n\nLacerta is an adorable tuxedo with cute little jelly bean toes. She has an almost all black face except for some white on her chin. She is a compact little girl and her foster mom calls Lacerta her â\x80\x9cplump little dumplingâ\x80\x9d. Lacerta is a very sweet girl, loves attention and being petted, but is still quite independent and is not needy. She likes to sleep with her foster mom â\x80\x93 sometimes by her head but usually at the foot of the bed. She likes to hang out with foster mom and help her watch TV or read. When she isnâ\x80\x99t visiting with her human, she is usually curled up in the top of the cat tree. Lacertaâ\x80\x99s favorite toys are catnip toys, but she is not overly playful. She has great litter box and scratching post habits. She is just an all around nice girl.\n\nLacerta does ok with most cats after proper introductions (it does take her a bit longer to get used to other cats), but does not care for dogs.\n\nLacerta was born to a stray cat and was adopted from us as a kitten but later returned.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-01-25T20:04:09Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=50&-t.jpg', 'id': '1'}]}, 'id': '44044287', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Saturday', 'sex': 'M', 'description': 'Saturday\nEst. DOB: May 18, 2018\nDescription: DSH Orange Tabby with White\nGender: Male\n\nSaturday is a handsome and curious little guy with big, beautiful golden eyes. He is very timid and needs some extra time to come around. Once he opens up to you and lets you pet him, he remembers how much he enjoys affection. When he is happy, Saturday makes his long tail dance around. He is an enthusiastic pouncer, always on the hunt for toys. He absolutely LOVES the laser pointer too! He enjoys the top of the cat tower most, so he can be nosey and nap. He shares well with the other cats in the foster home and loves to nap on soft blankets or on that piece of clothing you put on your bed to wear later. Saturday gets along with other cats and doesnâ\x80\x99t mind being around calm, cat friendly dogs. He would do best in a quieter home. Saturday also likes to drink water out of the kitchen sink, which not everyone appreciates, so his foster home is trying to discourage this. He is a tidy cat with good litterbox habits. Saturday is a very sweet boy who just needs someone who is patient and will allow him the time to feel comfortable with his surroundings.\n\nSaturday and his siblings (Friday, aka Jaws, and Sunday) were found living in a feral colony.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-02-18T13:57:35Z', 'animal': 'Cat'}, {'options': ['specialNeeds', 'altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Senior', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=50&-t.jpg', 'id': '1'}]}, 'id': '44044312', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Peppercorn', 'sex': 'M', 'description': 'Peppercorn\nEst. DOB: August 7, 2011\nDescription: DSH Orange Classic Marble Tabby\nGender: Male\n\nPeppercorn is a magnificently handsome and super adorable classic marble tabby. He is a timid boy and shy around new people and will hide under furniture â\x80\x93 he tends to hide low versus hiding high (cat trees, etc.). But once heâ\x80\x99s comfortable, heâ\x80\x99ll sneak into bed with you after you fall asleep. He doesnâ\x80\x99t chase toys but he does like â\x80\x9cda birdâ\x80\x9d toy and will come out and run and jump and try to catch it even when visitors are present. He is very fond of disemboweling catnip toys so they have to be extremely sturdy for them to survive. Peppercorn really likes food and cannot be free-fed, or he will gorge himself. He lost 4 pounds over 1.5 years with controlled feeding. He is currently eating Â¼ cup of dry food twice daily. He is not overly fond of canned food and he will vocalize when he wants food. Peppercorn has been diagnosed with asthma. Asthma in cats is an inflammatory condition of the airways; Peppercornâ\x80\x99s asthma has been very well controlled on a low dose of oral steroids. With very low dose, intermittent prednisone, Peppercorn has an excellent quality of life and no episodes of coughing or wheezing and would still make a great fur kid! The cost of prednisone is less than $20 a month. Peppercorn was originally found alone, hungry, and scared alongside of a road by someone who was out jogging. He was adopted as a kitten and later found as an adult and taken to WCAS who contacted us due to his microchip.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-02-18T14:02:39Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/43862429/2/?bust=1549907861&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/43862429/2/?bust=1549907861&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/43862429/2/?bust=1549907861&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/43862429/2/?bust=1549907861&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/43862429/2/?bust=1549907861&width=50&-t.jpg', 'id': '2'}]}, 'id': '43862429', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Orange Jell-O', 'sex': 'M', 'description': 'Orange Jell-O\nEst. DOB: May 23, 2018\nDescription: DSH Orange Tabby\nGender: Male\n\nOrange Jell-O likes to be around people, but is not a lap cat â\x80\x93 he is more of a watcher cat. A watcher cat that likes to make sure his eyes are shut in photos! Seriously â\x80\x93 we tried to get a picture with his eyes open but nope!\n\nOrange Jell-O gets along well with the other cats and the dogs in his foster home. He loves to play with springy cat toys, as well as laser lights and wand toys.\n\nOrange Jell-O has not been around children and would do best in a house without young children. He was caught as an older kitten in an area that was being TNRâ\x80\x99d and he can be shy at first. He needs a home with extra love and patience to help him completely blossom.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-01-25T20:17:32Z', 'animal': 'Cat'}, {'options': ['altered', 'hasShots', 'housetrained'], 'status': 'A', 'contact': {'phone': '919-303-3500', 'state': 'NC', 'address2': None, 'email': 'info@alleycatsandangels.org', 'city': 'Apex', 'zip': '27502', 'fax': None, 'address1': 'P.O. Box 785'}, 'age': 'Young', 'size': 'M', 'media': {'photos': [{'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=60&-pnt.jpg', 'id': '1'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=95&-fpm.jpg', 'id': '1'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=500&-x.jpg', 'id': '1'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=300&-pn.jpg', 'id': '1'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=50&-t.jpg', 'id': '1'}, {'size': 'pnt', 'url': 'http://photos.petfinder.com/photos/pets/44292568/2/?bust=1553279139&width=60&-pnt.jpg', 'id': '2'}, {'size': 'fpm', 'url': 'http://photos.petfinder.com/photos/pets/44292568/2/?bust=1553279139&width=95&-fpm.jpg', 'id': '2'}, {'size': 'x', 'url': 'http://photos.petfinder.com/photos/pets/44292568/2/?bust=1553279139&width=500&-x.jpg', 'id': '2'}, {'size': 'pn', 'url': 'http://photos.petfinder.com/photos/pets/44292568/2/?bust=1553279139&width=300&-pn.jpg', 'id': '2'}, {'size': 't', 'url': 'http://photos.petfinder.com/photos/pets/44292568/2/?bust=1553279139&width=50&-t.jpg', 'id': '2'}]}, 'id': '44292568', 'shelterPetId': None, 'breeds': ['Domestic Short Hair'], 'name': 'Papi', 'sex': 'M', 'description': 'Papi\nEst. DOB: December 7, 2018\nDescription: Male\nGender: DSH Gray and White\n\nPapi is one of the five litter mates named for characters in "The Emperor\'s New Groove". He is absolutely adorable with his almost all white face except for a little gray coming down onto his forehead.\n\nPapi is a delightful boy who likes to follow his foster dad around. He likes cuddling when he gets tired but when awake is quite a playful fellow.\n\nPapi and his brother, Kronk, often play fight and tumble across the floors. Crinkle balls and spring toys on smooth floors are other favorite play things.\n\nPapi also likes chasing laser pointers and batting at dangling wand toys. Papi has been fostered with a brother, a sister, five older kittens and three adult cats and gets along well in the group.\n\nThe Emperorâ\x80\x99s New Groove Kittens were born to a stray in rural NC.\n\nFully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.', 'mix': 'no', 'shelterId': 'NC615', 'lastUpdate': '2019-03-22T18:25:49Z', 'animal': 'Cat'}]
+Name: Maximus 
+	Age: Adult 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/37752652/1/?bust=1490996334&width=60&-pnt.jpg
+	Description: Maximus  Est. DOB July 3, 2016 Description: DSH Gray Cream Classic
+		(Marble) Tabby with White Gender: Male Adoption Fee: $110.00
+		Maximus, aka Max, is a very sweet, handsome, and large boy.  He
+		loves attention, playing, and looking out the window from high
+		places. He is extremely high energy and needs a home ready for that.
+		Max may be too much for some submissive cats. With gradual
+		introductions, he has learned to get along with some cats, and even
+		cuddles with them, if they let him. Max would do well with another
+		large, energetic playmate who wonât back down if Max comes on
+		strong.   To introduce Max to other cats and set boundaries, he will
+		need a room of his own for a few weeks, with gradually increasing
+		supervised freedom. To set clear boundaries and rules, Max has
+		learned that a couple of hours time-out alone in his room means he
+		broke the rules, and heâs smart enough to figure out what rule he
+		broke (each time) after a couple of immediate time-outs. But he may
+		sing you the jailhouse blues. Max doesnât seem to like dogs very
+		much and would do better in a home without dogs. He even threatened
+		a picture of a dog once at the vetâs office!  Max came to us from
+		a Good Samaritan in rural North Carolina.   Fully vetted: tested for
+		FeLV/FIV (negative unless otherwise noted); treated for intestinal
+		parasites, fleas, and ear mites; FVRCP+FeLV vaccinated (initial
+		vaccination and booster); and rabies vaccinated; spayed/neutered;
+		microchipped with Home Again microchips with rescue paid
+		registration.
+	 Maximus
+
+Est. DOB July 3, 2016
+Description: DSH Gray Cream Classic (Marble) Tabby with White
+Gender: Male
+Adoption Fee: $110.00
+
+Maximus, aka Max, is a very sweet, handsome, and large boy.  He loves attention, playing, and looking out the window from high places. He is extremely high energy and needs a home ready for that.  Max may be too much for some submissive cats. With gradual introductions, he has learned to get along with some cats, and even cuddles with them, if they let him. Max would do well with another large, energetic playmate who wonât back down if Max comes on strong. 
+
+To introduce Max to other cats and set boundaries, he will need a room of his own for a few weeks, with gradually increasing supervised freedom. To set clear boundaries and rules, Max has learned that a couple of hours time-out alone in his room means he broke the rules, and heâs smart enough to figure out what rule he broke (each time) after a couple of immediate time-outs. But he may sing you the jailhouse blues. Max doesnât seem to like dogs very much and would do better in a home without dogs. He even threatened a picture of a dog once at the vetâs office!
+
+Max came to us from a Good Samaritan in rural North Carolina. 
+
+Fully vetted: tested for FeLV/FIV (negative unless otherwise noted); treated for intestinal parasites, fleas, and ear mites; FVRCP+FeLV vaccinated (initial vaccination and booster); and rabies vaccinated; spayed/neutered; microchipped with Home Again microchips with rescue paid registration.
+
+Name: Toffee 
+	Age: Adult 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/42206913/1/?bust=1533770618&width=60&-pnt.jpg
+	Description: Toffee Est. DOB: May 17, 2016 Description: DSH Tabbico Gender: Female
+		Toffee is an unusual, special girl. While it might take her a while
+		to settle in to her new home, once she does, her quirky personality
+		will shine. She loves to play! She particularly likes the laser
+		pointer and all catnip toys. Toffee is a tech savvy girl. If you
+		have an iPad, she will love to sit with you and help you check Email
+		and Facebook. She especially likes to play a fishing game (available
+		as a free app from Friskies) and has a high score of 810. If you
+		watch a video with kittens meowing she will try to find those
+		kittens. Once she feels comfortable in her new home, she will crawl
+		up into your lap and take a nap. She sometimes gets overstimulated
+		and needs a short break from playing. Toffee gets along well with
+		other cats and cat friendly dogs after slow and proper
+		introductions. She wants to play with them and doesnât understand
+		why they donât want to play with her all the time.  Toffee was
+		left behind when her owner moved. She had kittens within days of
+		being abandoned. She and her kittens were taken care of by a good
+		Samaritan until they came to Alley Cats and Angels.  Fully vetted:
+		treated for fleas, ear mites, and intestinal parasites, tested for
+		FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to
+		date on all vaccinations (including FVRCP+FeLV [initial vaccination
+		and booster] and rabies), and microchipped with Home Again
+		microchips with shelter paid registration.
+	 Toffee
+Est. DOB: May 17, 2016
+Description: DSH Tabbico
+Gender: Female
+
+Toffee is an unusual, special girl. While it might take her a while to settle in to her new home, once she does, her quirky personality will shine. She loves to play! She particularly likes the laser pointer and all catnip toys. Toffee is a tech savvy girl. If you have an iPad, she will love to sit with you and help you check Email and Facebook. She especially likes to play a fishing game (available as a free app from Friskies) and has a high score of 810. If you watch a video with kittens meowing she will try to find those kittens. Once she feels comfortable in her new home, she will crawl up into your lap and take a nap. She sometimes gets overstimulated and needs a short break from playing. Toffee gets along well with other cats and cat friendly dogs after slow and proper introductions. She wants to play with them and doesnât understand why they donât want to play with her all the time.
+
+Toffee was left behind when her owner moved. She had kittens within days of being abandoned. She and her kittens were taken care of by a good Samaritan until they came to Alley Cats and Angels.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Tahji 
+	Age: Adult 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/42207598/1/?bust=1531846924&width=60&-pnt.jpg
+	Description: Tahji Est. DOB: June 22, 2016 Description: DSH Charcoal Gray / Russian
+		Blue Mix Gender: Male  Tahji is a strikingly handsome guy that was
+		found as a stray. He has a strong personality and LOVES men and will
+		do fine with an experienced female cat owner as well. Tahji is
+		sensitive to his environment and would do best in a calmer house
+		with no children under 10 so he can establish a routine.
+		Unfortunately, this is also the reason he gets stressed at adoption
+		events and does not do well. Due to this he will need an adjustment
+		period of a few days after he is adopted, but once he settles in he
+		will be a great cat. Wet food definitely helps him in almost any
+		situation! Tahji does well with foster momâs two large dogs, two
+		cats and two teenagers. He may "annoy" a cat that does not want to
+		play, but generally gets along well with other cats.  Clearly as a
+		kitten he was played rough with and was used to âhand
+		wrestlingâ. This is something weâve been working on.
+		Fortunately, he does not use his claws! Tahji still gets frisky in
+		the evening and will need to release some of that energy with
+		playing. Other times, if you are chilling on the couch then he will
+		join you and often will crawl on your chest with a quiet purr. He is
+		always very social, will follow his humans everywhere and has a full
+		vocabulary of trills and chirps to talk with! Tahji is always ready
+		to join in the bathroom for a drink from the sink or bathtub faucet!
+		Tahji was found as a stray in a volunteerâs neighborhood.  Fully
+		vetted: treated for fleas, ear mites, and intestinal parasites,
+		tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Tahji
+Est. DOB: June 22, 2016
+Description: DSH Charcoal Gray / Russian Blue Mix
+Gender: Male
+
+Tahji is a strikingly handsome guy that was found as a stray. He has a strong personality and LOVES men and will do fine with an experienced female cat owner as well. Tahji is sensitive to his environment and would do best in a calmer house with no children under 10 so he can establish a routine. Unfortunately, this is also the reason he gets stressed at adoption events and does not do well. Due to this he will need an adjustment period of a few days after he is adopted, but once he settles in he will be a great cat. Wet food definitely helps him in almost any situation! Tahji does well with foster momâs two large dogs, two cats and two teenagers. He may "annoy" a cat that does not want to play, but generally gets along well with other cats.
+
+Clearly as a kitten he was played rough with and was used to âhand wrestlingâ. This is something weâve been working on. Fortunately, he does not use his claws! Tahji still gets frisky in the evening and will need to release some of that energy with playing. Other times, if you are chilling on the couch then he will join you and often will crawl on your chest with a quiet purr. He is always very social, will follow his humans everywhere and has a full vocabulary of trills and chirps to talk with! Tahji is always ready to join in the bathroom for a drink from the sink or bathtub faucet! Tahji was found as a stray in a volunteerâs neighborhood.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Misty 
+	Age: Senior 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/42207623/1/?bust=1531847167&width=60&-pnt.jpg
+	Description: Misty Est. DOB: August 6, 2011 Description: DMH Calico Gender: Female
+		Misty came to us in 2012 as a one year old kitty and was later
+		adopted by a member of our group. While she was loved very much, her
+		adopter had to give her up due to an elderly parent moving in who
+		was highly allergic to cats. Misty is visually impaired. She
+		doesnât see well in low light situations, so her pupils often
+		appear dilated. But given some well-lit rooms and some extra
+		attention, she has blossomed! She went from being a kitty who hid in
+		dark places all the time, to one who canât wait to explore the
+		house. And now she runs through the house almost like a normal
+		kitty. She loves to follow her foster mom around and rub up against
+		her, but has not yet become accustomed to sitting in a lap. She
+		loves to play with toys that she can see well and has never missed
+		the litter pan.   She is a very curious, intelligent and playful
+		kitty who acts more like a young kitten than a grown cat. Misty gets
+		along fine with other cats and would probably do OK in a house with
+		a calm or older dog, but would not do well in a home with young
+		children.  Fully vetted: treated for fleas, ear mites, and
+		intestinal parasites, tested for FeLV/FIV (negative unless otherwise
+		noted), spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Misty
+Est. DOB: August 6, 2011
+Description: DMH Calico
+Gender: Female
+
+Misty came to us in 2012 as a one year old kitty and was later adopted by a member of our group. While she was loved very much, her adopter had to give her up due to an elderly parent moving in who was highly allergic to cats. Misty is visually impaired. She doesnât see well in low light situations, so her pupils often appear dilated. But given some well-lit rooms and some extra attention, she has blossomed! She went from being a kitty who hid in dark places all the time, to one who canât wait to explore the house. And now she runs through the house almost like a normal kitty. She loves to follow her foster mom around and rub up against her, but has not yet become accustomed to sitting in a lap. She loves to play with toys that she can see well and has never missed the litter pan. 
+
+She is a very curious, intelligent and playful kitty who acts more like a young kitten than a grown cat. Misty gets along fine with other cats and would probably do OK in a house with a calm or older dog, but would not do well in a home with young children.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Neha 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/42207643/1/?bust=1531847562&width=60&-pnt.jpg
+	Description: Neha Est. DOB: April 13, 2017 Description: DMH Mostly White Calico
+		Gender: Female  Neha is an adventurous, playful young adult. Her
+		high energy play might be better suited to cats or dogs her own age,
+		or younger, as she tends to annoy staid adult cats by taking playful
+		swipes at them. She likes to go exploring and has been known to slip
+		through the door to the garage or outside if she can, so her new
+		family will need to be vigilant! She is affectionate and purrs when
+		held, but cuddle time cuts into her play and exploring time, so she
+		doesnât want to do it for long. Neha needs to be redirected to
+		appropriate play outlets when she signals her impatience with being
+		held by arm nibbling. Neha likes to sleep in the bed with her foster
+		mom, but doesnât always like to share the bed with other cats. Her
+		favorite toy is a plastic ball that no longer jingles. She loves to
+		bat it around and pick it up in her mouth and carry it around with
+		her. Neha is one of the cats and kittens that came to us from a
+		small rural rescue.  Neha has a small hole in her heart (ventricular
+		septal defect) and a loud heart murmur, but has been seen by a
+		cardiologist vet and has had two echocardiograms six months apart.
+		Her last echo was April 18, 2018 and showed that her heart condition
+		has not gotten worse. At this time, no medication or intervention is
+		needed but her heart should be periodically checked (recommend
+		recheck and another echo in one year). Her forever family will need
+		to be diligent and watch for abnormal breathing.  Fully vetted:
+		treated for fleas, ear mites, and intestinal parasites, tested for
+		FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to
+		date on all vaccinations (including FVRCP+FeLV [initial vaccination
+		and booster] and rabies), and microchipped with Home Again
+		microchips with shelter paid registration.
+	 Neha
+Est. DOB: April 13, 2017
+Description: DMH Mostly White Calico
+Gender: Female
+
+Neha is an adventurous, playful young adult. Her high energy play might be better suited to cats or dogs her own age, or younger, as she tends to annoy staid adult cats by taking playful swipes at them. She likes to go exploring and has been known to slip through the door to the garage or outside if she can, so her new family will need to be vigilant! She is affectionate and purrs when held, but cuddle time cuts into her play and exploring time, so she doesnât want to do it for long. Neha needs to be redirected to appropriate play outlets when she signals her impatience with being held by arm nibbling. Neha likes to sleep in the bed with her foster mom, but doesnât always like to share the bed with other cats. Her favorite toy is a plastic ball that no longer jingles. She loves to bat it around and pick it up in her mouth and carry it around with her. Neha is one of the cats and kittens that came to us from a small rural rescue.
+
+Neha has a small hole in her heart (ventricular septal defect) and a loud heart murmur, but has been seen by a cardiologist vet and has had two echocardiograms six months apart. Her last echo was April 18, 2018 and showed that her heart condition has not gotten worse. At this time, no medication or intervention is needed but her heart should be periodically checked (recommend recheck and another echo in one year). Her forever family will need to be diligent and watch for abnormal breathing.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Blueberry 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/43500159/1/?bust=1544383014&width=60&-pnt.jpg
+	Description: Blueberry Est. DOB: May 11, 2018 Description: DSH White and Black
+		âCow Kittyâ Gender: Male  Blueberry is a little timid at first
+		but warms up quickly. He loves to be by his foster momâs side, on
+		her lap, or even underfoot! His favorite activity is chasing feet.
+		It is so adorable! He also loves to play with toys and other
+		kittens/cats.  Blueberry would love to find his forever family and
+		will be sure to give them lots of love.  Blueberry was found living
+		as a stray behind a Waffle House when he was about 6 months old. A
+		Good Samaritan took him in and kept him for a few weeks until the
+		rescue had space in their foster program.  Fully vetted: treated for
+		fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Blueberry
+Est. DOB: May 11, 2018
+Description: DSH White and Black âCow Kittyâ
+Gender: Male
+
+Blueberry is a little timid at first but warms up quickly. He loves to be by his foster momâs side, on her lap, or even underfoot! His favorite activity is chasing feet. It is so adorable! He also loves to play with toys and other kittens/cats.
+
+Blueberry would love to find his forever family and will be sure to give them lots of love.
+
+Blueberry was found living as a stray behind a Waffle House when he was about 6 months old. A Good Samaritan took him in and kept him for a few weeks until the rescue had space in their foster program.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Lumos 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/42200255/1/?bust=1531768666&width=60&-pnt.jpg
+	Description: Lumos Est. DOB: April 8, 2018 Description: DSH Black Gender: Male
+		Lumos is one of several kittens named for spells from the Harry
+		Potter series. Heâs quite the lovebug and likes to âbe all up in
+		your grillâ. He loves to walk with you or between your legs.
+		Heâll hang out with you when you read or watch television. He
+		likes to investigate your shopping bags to perform quality control.
+		Lumos loves to play with most toys and with his siblings and foster
+		siblings. He does well with other cats and kittens.  The Harry
+		Potter Spells Gray/Black kittens were found near a church. They were
+		most likely dumped because they were very friendly and not at all
+		feral. They were taken in when they were about 4 weeks old.  Lumos
+		is one of our FABULOUS NINJA HOUSE PANTHERS!  Fully vetted: treated
+		for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Lumos
+Est. DOB: April 8, 2018
+Description: DSH Black
+Gender: Male
+
+Lumos is one of several kittens named for spells from the Harry Potter series. Heâs quite the lovebug and likes to âbe all up in your grillâ. He loves to walk with you or between your legs. Heâll hang out with you when you read or watch television. He likes to investigate your shopping bags to perform quality control.
+
+Lumos loves to play with most toys and with his siblings and foster siblings. He does well with other cats and kittens.
+
+The Harry Potter Spells Gray/Black kittens were found near a church. They were most likely dumped because they were very friendly and not at all feral. They were taken in when they were about 4 weeks old.
+
+Lumos is one of our FABULOUS NINJA HOUSE PANTHERS!
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Pileus 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/42200983/1/?bust=1531770760&width=60&-pnt.jpg
+	Description: Pileus Est. DOB: April 3, 2018 Description: DSH White with Black
+		Smudge on Head Gender: Male  My foster mom calls me her little
+		clumsy clown because I am always doing something funny. I enjoy a
+		lot of attention and love kisses and snuggles. I am quite a busy
+		little fellow and enjoy playing with feathers, the ball tower and
+		jingly balls. I love bags and boxes and find them super nice to
+		explore and hide in, so I can attack your feet when you walk by. I
+		am really a cute prankster. I enjoy climbing also but not too high.
+		If you want an all-around good boy, then Iâm your guy and I never
+		turn down a nice lap and a warm bed right beside you. I am good with
+		cats, kittens and a cat friendly dog after proper introductions.
+		The Cloud kittens were born to a feral mom that was dropped off at
+		someoneâs house just three days before she gave birth.  Fully
+		vetted: treated for fleas, ear mites, and intestinal parasites,
+		tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Pileus
+Est. DOB: April 3, 2018
+Description: DSH White with Black Smudge on Head
+Gender: Male
+
+My foster mom calls me her little clumsy clown because I am always doing something funny. I enjoy a lot of attention and love kisses and snuggles. I am quite a busy little fellow and enjoy playing with feathers, the ball tower and jingly balls. I love bags and boxes and find them super nice to explore and hide in, so I can attack your feet when you walk by. I am really a cute prankster. I enjoy climbing also but not too high. If you want an all-around good boy, then Iâm your guy and I never turn down a nice lap and a warm bed right beside you. I am good with cats, kittens and a cat friendly dog after proper introductions.
+
+The Cloud kittens were born to a feral mom that was dropped off at someoneâs house just three days before she gave birth.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Pogo 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43530279/1/?bust=1544722277&width=60&-pnt.jpg
+	Description: Pogo Est. DOB: March 22, 2018 Description: DSH Black Gender: Female
+		My name is Pogo and I am a sweet, petite girl who loves to play. My
+		gorgeous, shiny black coat is not only one of my best features but
+		feels silky to the touch. My favorite game is chase. I love playing
+		with "da bird" toy and when I catch it, I am so happy!Â  I run and
+		prance and put my tail up.Â  Then I run to a corner, so  my siblings
+		can't get it. You see, my siblings are bigger than me and I tend to
+		hang back and let them play while I watch. I am a patient girl, but
+		when it's my turn to play, I shine. I also have the most adorable
+		habit.Â  When I eat I make a sort of Num, Num, Num sound.Â  Some
+		folks say it sounds a little like I'm growling, but if you listen
+		closely you can hear my happiness. My foster family thinks it is
+		hysterical.Â  And my sibling, Yo-Yo does it also. I am quite the
+		lady of the house, as I am patient and kind, but have a fun,
+		boisterous personality and will not ignored if I don't want to be.Â 
+		I enjoy going onto the screened patio but lately it has been too
+		cold.Â  I am still getting used to the idea of being held, but I do
+		like to sleep near you in bed and keep you warm. Will you be my
+		forever family?Â  I promise you will not regret it.Â   Yoyo, Pogo,
+		and Frisbee were rescued from WCAS when they were brought in close
+		to closing time and were too young to eat on their own and stay at
+		the shelter and would have been put to sleep.   Pogo is one of our
+		FABULOUS NINJA HOUSE PANTHERS!  Fully vetted: treated for fleas, ear
+		mites, and intestinal parasites, tested for FeLV/FIV (negative
+		unless otherwise noted), spayed/neutered, up to date on all
+		vaccinations (including FVRCP+FeLV [initial vaccination and booster]
+		and rabies), and microchipped with Home Again microchips with
+		shelter paid registration.
+	 Pogo
+Est. DOB: March 22, 2018
+Description: DSH Black
+Gender: Female
+
+My name is Pogo and I am a sweet, petite girl who loves to play. My gorgeous, shiny black coat is not only one of my best features but feels silky to the touch. My favorite game is chase. I love playing with "da bird" toy and when I catch it, I am so happy!Â  I run and prance and put my tail up.Â  Then I run to a corner, so  my siblings can't get it. You see, my siblings are bigger than me and I tend to hang back and let them play while I watch. I am a patient girl, but when it's my turn to play, I shine. I also have the most adorable habit.Â  When I eat I make a sort of Num, Num, Num sound.Â  Some folks say it sounds a little like I'm growling, but if you listen closely you can hear my happiness. My foster family thinks it is hysterical.Â  And my sibling, Yo-Yo does it also. I am quite the lady of the house, as I am patient and kind, but have a fun, boisterous personality and will not ignored if I don't want to be.Â  I enjoy going onto the screened patio but lately it has been too cold.Â  I am still getting used to the idea of being held, but I do like to sleep near you in bed and keep you warm. Will you be my forever family?Â  I promise you will not regret it.Â 
+
+Yoyo, Pogo, and Frisbee were rescued from WCAS when they were brought in close to closing time and were too young to eat on their own and stay at the shelter and would have been put to sleep. 
+
+Pogo is one of our FABULOUS NINJA HOUSE PANTHERS!
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Eager 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/42692218/1/?bust=1536342668&width=60&-pnt.jpg
+	Description: Eager Est. DOB: May 15, 2018 Description: DSH Black and White Tuxedo
+		â Black Chin Gender: Male  Eager is a handsome tuxedo. He is very
+		active and playful and likes to do his own thing or hang out with
+		his siblings. He loves to play and sleep with his siblings or any
+		sort of toy. Although he is not big on snuggles, he will settle down
+		near his foster mom for a rest.  Eagerâs favorite toy is his own
+		tail! He is a very determined tail chaser.  The E kittens were taken
+		in from a feral colony in Dunn, where TNR is underway.  Fully
+		vetted: treated for fleas, ear mites, and intestinal parasites,
+		tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Eager
+Est. DOB: May 15, 2018
+Description: DSH Black and White Tuxedo â Black Chin
+Gender: Male
+
+Eager is a handsome tuxedo. He is very active and playful and likes to do his own thing or hang out with his siblings. He loves to play and sleep with his siblings or any sort of toy. Although he is not big on snuggles, he will settle down near his foster mom for a rest.
+
+Eagerâs favorite toy is his own tail! He is a very determined tail chaser.
+
+The E kittens were taken in from a feral colony in Dunn, where TNR is underway.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Friday 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43500186/1/?bust=1544383554&width=60&-pnt.jpg
+	Description: Friday Est. DOB: May 18, 2018 Description: DSH Calico Gender: Female
+		Friday is a beautiful calico with a distinct pattern of orange and
+		black with a mostly white underbelly. Her foster dad calls her a
+		âpatchwork quilt of colorsâ. She is a skittish but loving girl
+		and took a few weeks to come out of her easy to startle kitten days.
+		Now she loves time in her foster dadâs arms or sleeping next to
+		him in bed. She does okay with other cats as long as they donât
+		startle or play pounce on her; she is not into roughhousing. Friday
+		does love chasing a laser light, wand toys, and paper balls which
+		she will occasionally bring and drop beside her foster dad.  Friday
+		will need a little time and extra patience to settle in with her
+		future family, but she is worth the extra time invested. Friday goes
+		crazy for the Temptations brand of kitten treats.  Friday earned the
+		nickname âJawsâ when she was rescued because her jaw was split
+		in two and she had a fracture on the side of her jaw. Poor girl had
+		to have her jaw wired for 8 weeks so it would heal. It will also be
+		slightly askew, but she is doing great.  Fully vetted: treated for
+		fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Friday
+Est. DOB: May 18, 2018
+Description: DSH Calico
+Gender: Female
+
+Friday is a beautiful calico with a distinct pattern of orange and black with a mostly white underbelly. Her foster dad calls her a âpatchwork quilt of colorsâ. She is a skittish but loving girl and took a few weeks to come out of her easy to startle kitten days. Now she loves time in her foster dadâs arms or sleeping next to him in bed. She does okay with other cats as long as they donât startle or play pounce on her; she is not into roughhousing. Friday does love chasing a laser light, wand toys, and paper balls which she will occasionally bring and drop beside her foster dad.
+
+Friday will need a little time and extra patience to settle in with her future family, but she is worth the extra time invested. Friday goes crazy for the Temptations brand of kitten treats.
+
+Friday earned the nickname âJawsâ when she was rescued because her jaw was split in two and she had a fracture on the side of her jaw. Poor girl had to have her jaw wired for 8 weeks so it would heal. It will also be slightly askew, but she is doing great.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Wingardium leviosa 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/42200387/1/?bust=1531769097&width=60&-pnt.jpg
+	Description: Wingardium Leviosa Est. DOB: April 8, 2018 Description: DSH Black
+		Gender: Female  Wingardium Leviosa is one of several kittens named
+		for spells from the Harry Potter series. She has short black fur and
+		a curious nature. Wingie loves to play âtouch nosesâ or âpaw
+		your chinâ for a while before taking a snooze. She likes to sit on
+		your shoulder and be a party kitty and also loves chin scratches.
+		Wingie has a soft purr. She likes belly rubs and may want to nibble
+		on your hand and fingers during the time.  Wingie does well with
+		other cats and kittens.  The Harry Potter Spells Gray/Black kittens
+		were found near a church. They were most likely dumped because they
+		were very friendly and not at all feral. They were taken in when
+		they were about 4 weeks old.  Leviosa is one of our FABULOUS NINJA
+		HOUSE PANTHERS!  Fully vetted: treated for fleas, ear mites, and
+		intestinal parasites, tested for FeLV/FIV (negative unless otherwise
+		noted), spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Wingardium Leviosa
+Est. DOB: April 8, 2018
+Description: DSH Black
+Gender: Female
+
+Wingardium Leviosa is one of several kittens named for spells from the Harry Potter series. She has short black fur and a curious nature. Wingie loves to play âtouch nosesâ or âpaw your chinâ for a while before taking a snooze. She likes to sit on your shoulder and be a party kitty and also loves chin scratches. Wingie has a soft purr. She likes belly rubs and may want to nibble on your hand and fingers during the time.
+
+Wingie does well with other cats and kittens.
+
+The Harry Potter Spells Gray/Black kittens were found near a church. They were most likely dumped because they were very friendly and not at all feral. They were taken in when they were about 4 weeks old.
+
+Leviosa is one of our FABULOUS NINJA HOUSE PANTHERS!
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Yoyo 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43530311/1/?bust=1544722629&width=60&-pnt.jpg
+	Description: Yoyo Est. DOB: March 22, 2018 Description: DSH Black â few white
+		strands of hair on throat Gender: Female  Hi all!Â  My name is Yo-
+		Yo! I am a rough and tumble girl who love to wrestle with my
+		siblings, Pogo and Frisbee. We are always running around the house
+		and chasing each other.Â  Sometimes, I am in the lead and they are
+		chasing me and sometimes I am chasing them.Â  It doesn't matter
+		because it is always fun, fun, fun! I enjoy playing with "da bird"Â 
+		toy.Â Which is always a great time.Â  I get so excited and want to
+		get that "da bird" so much that I jump up real high and snatch it
+		right out of the air!Â  My jumping  skills are quite impressive!Â 
+		And I get it about 95% of the time.Â  (I would say 97% but I don't
+		want to brag). I can also be a snuggle bug at times and will crawl
+		into the crook of your arm or leg and fall fast asleep.Â  I like
+		soft blankets and warm beds.Â  Sometimes my foster mom will be on
+		the computer and I will jump on her lap and start purring away.Â 
+		Did I mention that I have a great purr!! I would probably do best if
+		I had another cat to play and wrestle with. Want to be my forever
+		person?Â  Adopt me and I will show you what I great cat I am!   My
+		siblings, Pogo and Frisbee were taken in by the kindhearted people
+		at Allley Cats and Angels after someone dropped us off at the
+		shelter.Â  We were too young to eat on our own and would have been
+		put to sleep.  Yoyo is one of our FABULOUS NINJA HOUSE PANTHERS!
+		Fully vetted: treated for fleas, ear mites, and intestinal
+		parasites, tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Yoyo
+Est. DOB: March 22, 2018
+Description: DSH Black â few white strands of hair on throat
+Gender: Female
+
+Hi all!Â  My name is Yo-Yo! I am a rough and tumble girl who love to wrestle with my siblings, Pogo and Frisbee. We are always running around the house and chasing each other.Â  Sometimes, I am in the lead and they are chasing me and sometimes I am chasing them.Â  It doesn't matter because it is always fun, fun, fun! I enjoy playing with "da bird"Â  toy.Â Which is always a great time.Â  I get so excited and want to get that "da bird" so much that I jump up real high and snatch it right out of the air!Â  My jumping  skills are quite impressive!Â  And I get it about 95% of the time.Â  (I would say 97% but I don't want to brag). I can also be a snuggle bug at times and will crawl into the crook of your arm or leg and fall fast asleep.Â  I like soft blankets and warm beds.Â  Sometimes my foster mom will be on the computer and I will jump on her lap and start purring away.Â  Did I mention that I have a great purr!! I would probably do best if I had another cat to play and wrestle with. Want to be my forever person?Â  Adopt me and I will show you what I great cat I am! 
+
+My siblings, Pogo and Frisbee were taken in by the kindhearted people at Allley Cats and Angels after someone dropped us off at the shelter.Â  We were too young to eat on our own and would have been put to sleep.
+
+Yoyo is one of our FABULOUS NINJA HOUSE PANTHERS!
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Eccentric 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/42692236/1/?bust=1536342820&width=60&-pnt.jpg
+	Description: Eccentric Est. DOB: May 15, 2018 Description: DSH Black and White
+		Gender: Female  Eccentric has such unique markings and is very
+		striking. Like her siblings, she is a very active and playful girl
+		and always busy doing her own thing. She loves to play with her
+		siblings or any sort of toy. Although she is not big on snuggles,
+		she will settle down near her foster mom for a rest.  Eccentric
+		loves to pick up toys much larger than herself (large stuffed
+		animals) and run around the house with them in her mouth.  The E
+		kittens were taken in from a feral colony in Dunn, where TNR is
+		underway.  Fully vetted: treated for fleas, ear mites, and
+		intestinal parasites, tested for FeLV/FIV (negative unless otherwise
+		noted), spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Eccentric
+Est. DOB: May 15, 2018
+Description: DSH Black and White
+Gender: Female
+
+Eccentric has such unique markings and is very striking. Like her siblings, she is a very active and playful girl and always busy doing her own thing. She loves to play with her siblings or any sort of toy. Although she is not big on snuggles, she will settle down near her foster mom for a rest.
+
+Eccentric loves to pick up toys much larger than herself (large stuffed animals) and run around the house with them in her mouth.
+
+The E kittens were taken in from a feral colony in Dunn, where TNR is underway.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Hiccup 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/42302027/1/?bust=1532697547&width=60&-pnt.jpg
+	Description: Hiccup Est. DOB: March 31, 2018 Description: DSH Black Gender: Male
+		Hiccup is a very handsome boy. He likes to keep to himself until it
+		is time to snuggle with his foster siblings for a nap. His energy is
+		typical for any kitten and he loves to play with any toy that has a
+		string.  Hiccup does fine with other cats, children and even dogs
+		when introduced properly.  The How To Train Your Dragon kittens were
+		pulled from WCAS when the shelter was at maximum capacity.  Fully
+		vetted: treated for fleas, ear mites, and intestinal parasites,
+		tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Hiccup
+Est. DOB: March 31, 2018
+Description: DSH Black
+Gender: Male
+
+Hiccup is a very handsome boy. He likes to keep to himself until it is time to snuggle with his foster siblings for a nap. His energy is typical for any kitten and he loves to play with any toy that has a string.
+
+Hiccup does fine with other cats, children and even dogs when introduced properly.
+
+The How To Train Your Dragon kittens were pulled from WCAS when the shelter was at maximum capacity.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Clarissa explains it all 
+	Age: Senior 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43880303/1/?bust=1548685695&width=60&-pnt.jpg
+	Description: Clarissa Explains It All Est. DOB: August 30, 2010 Description:
+		Chocolate Point Siamese Gender: Female  Clarissa Explains It All is
+		such a tiny cat for such a big name! She enjoys cozy spaces and
+		quiet corners to curl up like a loaf and nap when sheâs alone. But
+		if you are around she will come running for attention! Clarissa
+		isnât much of a climber, but she might make herself a napping nook
+		by pushing things around on a bottom shelf. Her favorite bed at her
+		foster home is a folded-up blanket in a sideways cardboard box.
+		Clarissa loves (and needs) to be brushed regularly. Sometimes, she
+		gets a little snippy when you put the brush away! She has a
+		particular personality and some princess-like demands. She prefers
+		canned food and in fact, without canned food mixed 50/50 with water,
+		she doesnât get quite enough to drink and gets dehydrated easily.
+		Thereâs nothing medically wrong with her, she just prefers her
+		water to be Fancy Feast flavored! She also would much rather drink
+		from a glass or ceramic bowl than plastic or metal, to the point of
+		just not drinking water at all.  Clarissa was pulled as an adult
+		from WCAS, where she was adopted and returned twice because she
+		doesnât get along with kids or dogs.  Fully vetted: treated for
+		fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Clarissa Explains It All
+Est. DOB: August 30, 2010
+Description: Chocolate Point Siamese
+Gender: Female
+
+Clarissa Explains It All is such a tiny cat for such a big name! She enjoys cozy spaces and quiet corners to curl up like a loaf and nap when sheâs alone. But if you are around she will come running for attention! Clarissa isnât much of a climber, but she might make herself a napping nook by pushing things around on a bottom shelf. Her favorite bed at her foster home is a folded-up blanket in a sideways cardboard box.
+
+Clarissa loves (and needs) to be brushed regularly. Sometimes, she gets a little snippy when you put the brush away! She has a particular personality and some princess-like demands. She prefers canned food and in fact, without canned food mixed 50/50 with water, she doesnât get quite enough to drink and gets dehydrated easily. Thereâs nothing medically wrong with her, she just prefers her water to be Fancy Feast flavored! She also would much rather drink from a glass or ceramic bowl than plastic or metal, to the point of just not drinking water at all.
+
+Clarissa was pulled as an adult from WCAS, where she was adopted and returned twice because she doesnât get along with kids or dogs.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Etouffee 
+	Age: Adult 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/44212996/1/?bust=1552415215&width=60&-pnt.jpg
+	Description: Etouffee Est. DOB: September 13, 2017 Description: DSH Black with
+		white âbikiniâ Gender: Female  KittyTinder Profile - Likes:
+		sitting in the cat tree and minding her own business - Dislikes:
+		people who donât mind their own business - Hobbies: listening to
+		Cheap Trick while drinking mai tais - Future plans: create the first
+		home shopping network just for cats  ÃtouffÃ©e is a sweet black cat
+		with expressive eyes and cute patches of white on her chest and
+		belly. Sheâs not very playful, but she is very sweet. ÃtouffÃ©e
+		had a rough start to life, as she came from a stressful hoarding
+		situation. She is very shy at first and it takes a long time to earn
+		her trust. After mostly just hiding for a month in her latest foster
+		home, she one day just confidently strolled out and started giving
+		loving head butts to her foster mom! Then she asked for chin
+		scratches from foster dad and finally purred. When she does feel
+		comfortable, she enjoys hanging out with you, just chilling and
+		watching whatever you are doing. If you really want to win her over,
+		give her some butt scratches and wet food.  Fully vetted: treated
+		for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Etouffee
+Est. DOB: September 13, 2017
+Description: DSH Black with white âbikiniâ
+Gender: Female
+
+KittyTinder Profile
+- Likes: sitting in the cat tree and minding her own business
+- Dislikes: people who donât mind their own business
+- Hobbies: listening to Cheap Trick while drinking mai tais
+- Future plans: create the first home shopping network just for cats
+
+ÃtouffÃ©e is a sweet black cat with expressive eyes and cute patches of white on her chest and belly. Sheâs not very playful, but she is very sweet. ÃtouffÃ©e had a rough start to life, as she came from a stressful hoarding situation. She is very shy at first and it takes a long time to earn her trust. After mostly just hiding for a month in her latest foster home, she one day just confidently strolled out and started giving loving head butts to her foster mom! Then she asked for chin scratches from foster dad and finally purred. When she does feel comfortable, she enjoys hanging out with you, just chilling and watching whatever you are doing. If you really want to win her over, give her some butt scratches and wet food.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Dolce 
+	Age: Adult 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43841762/1/?bust=1548270070&width=60&-pnt.jpg
+	Description: Dolce Est. DOB: October 9, 2014 Description: DSH Gray Cream Tabby
+		Gender: Female  Dolce is a petite lady, who is mostly outgoing when
+		sheâs around people/cats she likes. In the presence of a cat with
+		a more dominant personality, she may hide under the furniture with
+		her buddy, Axel.  She enjoys wand toys with dangly strings and
+		hanging out in both high and low places.  Dolce will tolerate being
+		held but itâs not her favorite thing. She enjoys attention and
+		being scratched behind her ears. Dolce is fairly active and chatty
+		when she warms up to you.  Dolce and Axel were adopted as kittens
+		and returned when their adopters could no longer provide the best
+		home for them.  Fully vetted: treated for fleas, ear mites, and
+		intestinal parasites, tested for FeLV/FIV (negative unless otherwise
+		noted), spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Dolce
+Est. DOB: October 9, 2014
+Description: DSH Gray Cream Tabby
+Gender: Female
+
+Dolce is a petite lady, who is mostly outgoing when sheâs around people/cats she likes. In the presence of a cat with a more dominant personality, she may hide under the furniture with her buddy, Axel.
+
+She enjoys wand toys with dangly strings and hanging out in both high and low places.
+
+Dolce will tolerate being held but itâs not her favorite thing. She enjoys attention and being scratched behind her ears. Dolce is fairly active and chatty when she warms up to you.
+
+Dolce and Axel were adopted as kittens and returned when their adopters could no longer provide the best home for them.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Emilio 
+	Age: Adult 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/39231652/1/?bust=1503848613&width=60&-pnt.jpg
+	Description: Emilio  Est. DOB: May 22, 2016 Description: DMH Orange Tabby Gender:
+		Male Adoption Fee: $110   Emilio Estevez is a sweet boy. He has had
+		a long journey and he is a special boy who needs a quiet home
+		without young children.  Emilio loves to snuggle on your lap when it
+		is quiet or you are watching TV. In his foster home, he has become
+		the "Big Brother" to all the new foster siblings that come in.  He
+		loves to play with his siblings and gets along with the dogs in the
+		house.   Emilio has had allergy problems in the past that required a
+		special diet, but is currently doing well on Rachael Ray Nutrish
+		Indoor Formula.  Emilio was rescued from a large feral colony where
+		TNR has finally been completed.   Fully vetted: tested for FeLV/FIV
+		(negative unless otherwise noted); treated for intestinal parasites,
+		fleas, and ear mites; FVRCP+FeLV vaccinated (initial vaccination and
+		booster); and rabies vaccinated; spayed/neutered; microchipped with
+		Home Again microchips with rescue paid registration.
+	 Emilio
+
+Est. DOB: May 22, 2016
+Description: DMH Orange Tabby
+Gender: Male
+Adoption Fee: $110
+
+
+Emilio Estevez is a sweet boy. He has had a long journey and he is a special boy who needs a quiet home without young children.  Emilio loves to snuggle on your lap when it is quiet or you are watching TV. In his foster home, he has become the "Big Brother" to all the new foster siblings that come in.  He loves to play with his siblings and gets along with the dogs in the house. 
+
+Emilio has had allergy problems in the past that required a special diet, but is currently doing well on Rachael Ray Nutrish Indoor Formula.
+
+Emilio was rescued from a large feral colony where TNR has finally been completed. 
+
+Fully vetted: tested for FeLV/FIV (negative unless otherwise noted); treated for intestinal parasites, fleas, and ear mites; FVRCP+FeLV vaccinated (initial vaccination and booster); and rabies vaccinated; spayed/neutered; microchipped with Home Again microchips with rescue paid registration.
+
+
+Name: Dunn 
+	Age: Adult 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43880075/1/?bust=1548684978&width=60&-pnt.jpg
+	Description: Dunn Est. DOB: August 13, 2016 Description: DSH Torbie Gender: Female
+		Dunn is a round little dumpling, who is sweet and outgoing. She has
+		a strong personality and may demonstrate that around less confident
+		cats. Dunn enjoys heights, chin scratches, and belly rubs. She also
+		loves sitting in the cat tree looking out the window. She has been
+		known to explore with her mouth, tasting hands and sometimes running
+		her teeth over them without biting down. She will also grab your
+		hand when she decides you arenât done petting her. Dunn is very
+		food motivated, as she arrived as a very nervous cat who had never
+		been inside and had limited contact with people. However, she really
+		opened up to people when she realized where tasty treats come from.
+		She isnât a huge fan of being held in your arms but will tolerate
+		it for a little while.  Dunn arrived as a young feral mother, and
+		while she was being spayed, her ear was tipped as a community cat
+		before it was realized she is actually quite friendly.  Fully
+		vetted: treated for fleas, ear mites, and intestinal parasites,
+		tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Dunn
+Est. DOB: August 13, 2016
+Description: DSH Torbie
+Gender: Female
+
+Dunn is a round little dumpling, who is sweet and outgoing. She has a strong personality and may demonstrate that around less confident cats. Dunn enjoys heights, chin scratches, and belly rubs. She also loves sitting in the cat tree looking out the window. She has been known to explore with her mouth, tasting hands and sometimes running her teeth over them without biting down. She will also grab your hand when she decides you arenât done petting her. Dunn is very food motivated, as she arrived as a very nervous cat who had never been inside and had limited contact with people. However, she really opened up to people when she realized where tasty treats come from. She isnât a huge fan of being held in your arms but will tolerate it for a little while.
+
+Dunn arrived as a young feral mother, and while she was being spayed, her ear was tipped as a community cat before it was realized she is actually quite friendly.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Lacerta 
+	Age: Young 
+	Sex: F 
+	Photo: http://photos.petfinder.com/photos/pets/43861972/1/?bust=1548446902&width=60&-pnt.jpg
+	Description: Lacerta Est. DOB: November 17, 2017 Description: DSH Black and White
+		Tuxedo Gender: Female  Lacerta is an adorable tuxedo with cute
+		little jelly bean toes. She has an almost all black face except for
+		some white on her chin. She is a compact little girl and her foster
+		mom calls Lacerta her âplump little dumplingâ. Lacerta is a very
+		sweet girl, loves attention and being petted, but is still quite
+		independent and is not needy. She likes to sleep with her foster mom
+		â sometimes by her head but usually at the foot of the bed. She
+		likes to hang out with foster mom and help her watch TV or read.
+		When she isnât visiting with her human, she is usually curled up
+		in the top of the cat tree. Lacertaâs favorite toys are catnip
+		toys, but she is not overly playful. She has great litter box and
+		scratching post habits. She is just an all around nice girl.
+		Lacerta does ok with most cats after proper introductions (it does
+		take her a bit longer to get used to other cats), but does not care
+		for dogs.  Lacerta was born to a stray cat and was adopted from us
+		as a kitten but later returned.  Fully vetted: treated for fleas,
+		ear mites, and intestinal parasites, tested for FeLV/FIV (negative
+		unless otherwise noted), spayed/neutered, up to date on all
+		vaccinations (including FVRCP+FeLV [initial vaccination and booster]
+		and rabies), and microchipped with Home Again microchips with
+		shelter paid registration.
+	 Lacerta
+Est. DOB: November 17, 2017
+Description: DSH Black and White Tuxedo
+Gender: Female
+
+Lacerta is an adorable tuxedo with cute little jelly bean toes. She has an almost all black face except for some white on her chin. She is a compact little girl and her foster mom calls Lacerta her âplump little dumplingâ. Lacerta is a very sweet girl, loves attention and being petted, but is still quite independent and is not needy. She likes to sleep with her foster mom â sometimes by her head but usually at the foot of the bed. She likes to hang out with foster mom and help her watch TV or read. When she isnât visiting with her human, she is usually curled up in the top of the cat tree. Lacertaâs favorite toys are catnip toys, but she is not overly playful. She has great litter box and scratching post habits. She is just an all around nice girl.
+
+Lacerta does ok with most cats after proper introductions (it does take her a bit longer to get used to other cats), but does not care for dogs.
+
+Lacerta was born to a stray cat and was adopted from us as a kitten but later returned.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Saturday 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/44044287/1/?bust=1550498207&width=60&-pnt.jpg
+	Description: Saturday Est. DOB: May 18, 2018 Description: DSH Orange Tabby with
+		White Gender: Male  Saturday is a handsome and curious little guy
+		with big, beautiful golden eyes. He is very timid and needs some
+		extra time to come around. Once he opens up to you and lets you pet
+		him, he remembers how much he enjoys affection. When he is happy,
+		Saturday makes his long tail dance around. He is an enthusiastic
+		pouncer, always on the hunt for toys. He absolutely LOVES the laser
+		pointer too! He enjoys the top of the cat tower most, so he can be
+		nosey and nap. He shares well with the other cats in the foster home
+		and loves to nap on soft blankets or on that piece of clothing you
+		put on your bed to wear later. Saturday gets along with other cats
+		and doesnât mind being around calm, cat friendly dogs. He would do
+		best in a quieter home. Saturday also likes to drink water out of
+		the kitchen sink, which not everyone appreciates, so his foster home
+		is trying to discourage this. He is a tidy cat with good litterbox
+		habits. Saturday is a very sweet boy who just needs someone who is
+		patient and will allow him the time to feel comfortable with his
+		surroundings.  Saturday and his siblings (Friday, aka Jaws, and
+		Sunday) were found living in a feral colony.  Fully vetted: treated
+		for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV
+		(negative unless otherwise noted), spayed/neutered, up to date on
+		all vaccinations (including FVRCP+FeLV [initial vaccination and
+		booster] and rabies), and microchipped with Home Again microchips
+		with shelter paid registration.
+	 Saturday
+Est. DOB: May 18, 2018
+Description: DSH Orange Tabby with White
+Gender: Male
+
+Saturday is a handsome and curious little guy with big, beautiful golden eyes. He is very timid and needs some extra time to come around. Once he opens up to you and lets you pet him, he remembers how much he enjoys affection. When he is happy, Saturday makes his long tail dance around. He is an enthusiastic pouncer, always on the hunt for toys. He absolutely LOVES the laser pointer too! He enjoys the top of the cat tower most, so he can be nosey and nap. He shares well with the other cats in the foster home and loves to nap on soft blankets or on that piece of clothing you put on your bed to wear later. Saturday gets along with other cats and doesnât mind being around calm, cat friendly dogs. He would do best in a quieter home. Saturday also likes to drink water out of the kitchen sink, which not everyone appreciates, so his foster home is trying to discourage this. He is a tidy cat with good litterbox habits. Saturday is a very sweet boy who just needs someone who is patient and will allow him the time to feel comfortable with his surroundings.
+
+Saturday and his siblings (Friday, aka Jaws, and Sunday) were found living in a feral colony.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Peppercorn 
+	Age: Senior 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/44044312/1/?bust=1550511362&width=60&-pnt.jpg
+	Description: Peppercorn Est. DOB: August 7, 2011 Description: DSH Orange Classic
+		Marble Tabby Gender: Male  Peppercorn is a magnificently handsome
+		and super adorable classic marble tabby. He is a timid boy and shy
+		around new people and will hide under furniture â he tends to hide
+		low versus hiding high (cat trees, etc.). But once heâs
+		comfortable, heâll sneak into bed with you after you fall asleep.
+		He doesnât chase toys but he does like âda birdâ toy and will
+		come out and run and jump and try to catch it even when visitors are
+		present. He is very fond of disemboweling catnip toys so they have
+		to be extremely sturdy for them to survive. Peppercorn really likes
+		food and cannot be free-fed, or he will gorge himself. He lost 4
+		pounds over 1.5 years with controlled feeding. He is currently
+		eating Â¼ cup of dry food twice daily. He is not overly fond of
+		canned food and he will vocalize when he wants food. Peppercorn has
+		been diagnosed with asthma. Asthma in cats is an inflammatory
+		condition of the airways; Peppercornâs asthma has been very well
+		controlled on a low dose of oral steroids. With very low dose,
+		intermittent prednisone, Peppercorn has an excellent quality of life
+		and no episodes of coughing or wheezing and would still make a great
+		fur kid! The cost of prednisone is less than $20 a month. Peppercorn
+		was originally found alone, hungry, and scared alongside of a road
+		by someone who was out jogging. He was adopted as a kitten and later
+		found as an adult and taken to WCAS who contacted us due to his
+		microchip.  Fully vetted: treated for fleas, ear mites, and
+		intestinal parasites, tested for FeLV/FIV (negative unless otherwise
+		noted), spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Peppercorn
+Est. DOB: August 7, 2011
+Description: DSH Orange Classic Marble Tabby
+Gender: Male
+
+Peppercorn is a magnificently handsome and super adorable classic marble tabby. He is a timid boy and shy around new people and will hide under furniture â he tends to hide low versus hiding high (cat trees, etc.). But once heâs comfortable, heâll sneak into bed with you after you fall asleep. He doesnât chase toys but he does like âda birdâ toy and will come out and run and jump and try to catch it even when visitors are present. He is very fond of disemboweling catnip toys so they have to be extremely sturdy for them to survive. Peppercorn really likes food and cannot be free-fed, or he will gorge himself. He lost 4 pounds over 1.5 years with controlled feeding. He is currently eating Â¼ cup of dry food twice daily. He is not overly fond of canned food and he will vocalize when he wants food. Peppercorn has been diagnosed with asthma. Asthma in cats is an inflammatory condition of the airways; Peppercornâs asthma has been very well controlled on a low dose of oral steroids. With very low dose, intermittent prednisone, Peppercorn has an excellent quality of life and no episodes of coughing or wheezing and would still make a great fur kid! The cost of prednisone is less than $20 a month. Peppercorn was originally found alone, hungry, and scared alongside of a road by someone who was out jogging. He was adopted as a kitten and later found as an adult and taken to WCAS who contacted us due to his microchip.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Orange jell-o 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/43862429/1/?bust=1548447369&width=60&-pnt.jpg
+	Description: Orange Jell-O Est. DOB: May 23, 2018 Description: DSH Orange Tabby
+		Gender: Male  Orange Jell-O likes to be around people, but is not a
+		lap cat â he is more of a watcher cat. A watcher cat that likes to
+		make sure his eyes are shut in photos! Seriously â we tried to get
+		a picture with his eyes open but nope!  Orange Jell-O gets along
+		well with the other cats and the dogs in his foster home. He loves
+		to play with springy cat toys, as well as laser lights and wand
+		toys.  Orange Jell-O has not been around children and would do best
+		in a house without young children. He was caught as an older kitten
+		in an area that was being TNRâd and he can be shy at first. He
+		needs a home with extra love and patience to help him completely
+		blossom.  Fully vetted: treated for fleas, ear mites, and intestinal
+		parasites, tested for FeLV/FIV (negative unless otherwise noted),
+		spayed/neutered, up to date on all vaccinations (including
+		FVRCP+FeLV [initial vaccination and booster] and rabies), and
+		microchipped with Home Again microchips with shelter paid
+		registration.
+	 Orange Jell-O
+Est. DOB: May 23, 2018
+Description: DSH Orange Tabby
+Gender: Male
+
+Orange Jell-O likes to be around people, but is not a lap cat â he is more of a watcher cat. A watcher cat that likes to make sure his eyes are shut in photos! Seriously â we tried to get a picture with his eyes open but nope!
+
+Orange Jell-O gets along well with the other cats and the dogs in his foster home. He loves to play with springy cat toys, as well as laser lights and wand toys.
+
+Orange Jell-O has not been around children and would do best in a house without young children. He was caught as an older kitten in an area that was being TNRâd and he can be shy at first. He needs a home with extra love and patience to help him completely blossom.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
+Name: Papi 
+	Age: Young 
+	Sex: M 
+	Photo: http://photos.petfinder.com/photos/pets/44292568/1/?bust=1553279137&width=60&-pnt.jpg
+	Description: Papi Est. DOB: December 7, 2018 Description: Male Gender: DSH Gray and
+		White  Papi is one of the five litter mates named for characters in
+		"The Emperor's New Groove". He is absolutely adorable with his
+		almost all white face except for a little gray coming down onto his
+		forehead.  Papi is a delightful boy who likes to follow his foster
+		dad around. He likes cuddling when he gets tired but when awake is
+		quite a playful fellow.  Papi and his brother, Kronk, often play
+		fight and tumble across the floors. Crinkle balls and spring toys on
+		smooth floors are other favorite play things.  Papi also likes
+		chasing laser pointers and batting at dangling wand toys. Papi has
+		been fostered with a brother, a sister, five older kittens and three
+		adult cats and gets along well in the group.  The Emperorâs New
+		Groove Kittens were born to a stray in rural NC.  Fully vetted:
+		treated for fleas, ear mites, and intestinal parasites, tested for
+		FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to
+		date on all vaccinations (including FVRCP+FeLV [initial vaccination
+		and booster] and rabies), and microchipped with Home Again
+		microchips with shelter paid registration.
+	 Papi
+Est. DOB: December 7, 2018
+Description: Male
+Gender: DSH Gray and White
+
+Papi is one of the five litter mates named for characters in "The Emperor's New Groove". He is absolutely adorable with his almost all white face except for a little gray coming down onto his forehead.
+
+Papi is a delightful boy who likes to follow his foster dad around. He likes cuddling when he gets tired but when awake is quite a playful fellow.
+
+Papi and his brother, Kronk, often play fight and tumble across the floors. Crinkle balls and spring toys on smooth floors are other favorite play things.
+
+Papi also likes chasing laser pointers and batting at dangling wand toys. Papi has been fostered with a brother, a sister, five older kittens and three adult cats and gets along well in the group.
+
+The Emperorâs New Groove Kittens were born to a stray in rural NC.
+
+Fully vetted: treated for fleas, ear mites, and intestinal parasites, tested for FeLV/FIV (negative unless otherwise noted), spayed/neutered, up to date on all vaccinations (including FVRCP+FeLV [initial vaccination and booster] and rabies), and microchipped with Home Again microchips with shelter paid registration.
