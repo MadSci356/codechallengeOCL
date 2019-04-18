@@ -1,0 +1,2 @@
+{'message': 'Invalid geographical location', 'code': '203'}
+{"encoding": "iso-8859-1", "version": "1.0", "petfinder": {"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance", "header": {"timestamp": "2019-04-18T05:54:50Z", "status": {"message": "Invalid geographical location", "code": "203"}, "version": "0.1"}, "xsi:noNamespaceSchemaLocation": "http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}
