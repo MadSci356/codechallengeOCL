@@ -4,6 +4,7 @@
 import argparse, requests, json
 import sys
 from textwrap import TextWrapper
+#from pudb import set_trace; set_trace()
 
 """
 petfinderSP is a command line tool to help search for pets of a given type and
@@ -67,10 +68,16 @@ def json_to_normal(data, args):
         #gettig rest of fields
         age = get_value(pet, "age")
         sex = get_value(pet, "sex")
+
+        #to get url: pet->media->photos->url
         media = get_value(pet, "media")
-        photos = get_value(media, "photos")
-        url = MISS #initially miss incase photos is a miss as well
-        if (photos != MISS):
+        #check if media was a valid entry
+        photos = []
+        if (media != MISS and media != None):
+            photos = get_value(media, "photos")
+        #check photos was a miss
+        url = MISS
+        if (photos != MISS and photos != None):
             url = get_value(photos[0], "url")
         description = get_value(pet, "descripion")
 
@@ -91,15 +98,16 @@ def json_to_normal(data, args):
 
 
 def get_value(pet, key):
-    breakpoint()
     value = ""
     try:
         value = pet[key]
     except KeyError: #key missing
         print("key error for " + key)
         return MISS
-    if len(value) == 0: #value is empty
-        value = MISS
+
+    #key exists but check if val is null or of len 0
+    if (value == None or len(value) == 0):
+        return MISS
     return value
 
 #----(1) Process arguments----#
