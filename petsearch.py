@@ -53,8 +53,8 @@ class PetSearch:
             location: where to look for a pet
             print_json: should the search results be outputted in raw JSON
             format"""
-        # self.type = type
-        # self.location = location
+        self.type = type
+        self.location = location
         self.print_json = print_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0
@@ -63,8 +63,8 @@ class PetSearch:
          #making the query for the url
         self.query = {"output": "full",
                     "offset": self.offset,
-                    "animal": type,
-                    "location": location}
+                    "animal": self.type,
+                    "location": self.location}
         self.data = {}
 
     def perform_search(self):
