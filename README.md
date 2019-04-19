@@ -39,7 +39,7 @@ Runs in Python 3
 nonstandard libraries used: requests
 
 #### Things I (re)learned during the project:
-- Python doesn't yell at you doing this: `["string", "another string", 598]`
+- Python doesn't yell at for you doing this: `["string", "another string", 598]`
 - how good the requests library is
 - so many pets!
 
