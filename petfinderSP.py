@@ -22,14 +22,14 @@ Date created: Apr 17 2019
 
 #valid search result status from API
 PFAPI_OK = 100
-
 #value inplace of key:val pair missing from dictionary
 MISS = "<UNKNOWN>"
 #number of characters for line wrap in pet description
 WRAP_TEXT = 70
+# default search count
+DEFAULT_COUNT = 25
 
-#searches
-count = 0
+
 
 
 #----functions----#
@@ -143,9 +143,11 @@ def main():
 
 
     #----(2) Request the search----#
+    last_offset = 0
     url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
     #making the query for the url
-    query = {'output': 'full', 'animal': args.type, 'location': args.location}
+    query = {'output': 'full', 'animal': args.type, 'location': args.location,
+            'offset': last_offset}
 
     #getting from url
     response = requests.get(url, params=query)
@@ -163,12 +165,19 @@ def main():
         parser.parse_args(["-h"]) #extra help message
         sys.exit(1);
 
+    #below extra steps are taken to give user option to try more searches
+
+    #number of searches
+    last_offset = int(data["petfinder"]["lastOffset"])
+    total_searches = lastOffSet
 
     #----(3) printing the results----#
-    if (args.json): #raw json format
-            print(data)
-    else:
-        json_to_normal(data, args)
+    while True:
+        if (args.json): #raw json format
+                print(data)
+        else:
+            json_to_normal(data, args)
+        if ()
 
 
 main()
