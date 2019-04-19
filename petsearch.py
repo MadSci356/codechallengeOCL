@@ -32,8 +32,6 @@ class PetSearch:
 
         Further functions can be added for more printed output for a pet search.
         See get_output().
-
-
         """
 
     #----constants----#
@@ -55,8 +53,8 @@ class PetSearch:
             location: where to look for a pet
             print_json: should the search results be outputted in raw JSON
             format"""
-        self.type = type
-        self.location = location
+        # self.type = type
+        # self.location = location
         self.print_json = print_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0
@@ -72,7 +70,8 @@ class PetSearch:
     def perform_search(self):
         """Requests the server for a search. Sets data, offset, and end_search
         fields. Checks for error in requesting the search or in the returned
-        API data"""
+        API data
+        returns: True on a successful search, False otherwise"""
         #setting up query with the previous offset (initially 0)
         self.query["offset"] = self.offset
 
@@ -84,12 +83,14 @@ class PetSearch:
 
         #error check on API returned data
         self.data = json.loads(response.text) #dictionary
+
+        #code: data.petfinder.header.status.code
         status = self.data["petfinder"]["header"]["status"]
         code = int(status["code"])
         if (code != self.PFAPI_OK): #error from API
-            print(f'Err: {code} {status["message"]}')
-            parser.parse_args(["-h"]) #extra help message
-            sys.exit(1);
+            print(f'API Error: {code} {status["message"]}\n')
+            return False
+
 
         #number of hits this search = offset of this search - last offset
         self.searches = int(self.data["petfinder"]["lastOffset"]) - self.offset
@@ -99,7 +100,11 @@ class PetSearch:
         #store offset from API
         self.offset = int(self.data["petfinder"]["lastOffset"])
 
+        return True #search done
+
     def get_output(self):
+        """gets search results either in JSON or normal format depending on
+            print_json field """
         if (self.print_json): #raw json format
             return str(self.data)
         else:
@@ -138,7 +143,7 @@ class PetSearch:
 
 
     def get_pet_description(self, pet):
-        """getting description of pets from data. Wrapping the lines with
+        """getting description of a pet from data. Wrapping the lines with
             WRAP_TEXT
             pet: pet dictionary
             returns: string of wrapped description"""
@@ -213,8 +218,9 @@ def main():
     #loop for subsequent searches
     while (True):
         #searching on server
-        ps.perform_search()
-
+        if (not ps.perform_search()): #error in search
+            parser.parse_args(["-h"]) #extra help message upon error
+            sys.exit(1);
         #----(3) Printing output----#
         print(ps.get_output())
         #----prompting user for further searches---#
@@ -228,7 +234,5 @@ def main():
                 break
         else:
             print("No more results found.")
-
-
 
 main()
