@@ -22,7 +22,7 @@ When a search is complete, the user can enter "y/n" to either continue or stop s
 The prompt will keep occurring until either the returned number of searches is < 25 or
 if the server returns a error status.
 
-##### Prompting and output redirection
+#### Prompting and output redirection
 If the output is redirected to a file, the prompts to the user will be redirected as well.
 So the terminal will be waiting for a user response for subsequent searches but won't
 display the prompt on it. I don't know how to fix that quite yet, but will fix it I
@@ -37,4 +37,4 @@ nonstandard libraries used: requests
 - how good requests library is
 - so many pets!
 
-### Estimated time spent: 8-9 hours
+#### Estimated time spent: 8-9 hours
