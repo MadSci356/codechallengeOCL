@@ -11,9 +11,9 @@ Initially this code was written procedurally. (the old script is in the scripts 
 I decided to make it object oriented because it might more flexible and easier to use.
 
 #### Adding more formatted text
-If more fields need to be parsed, 'get_value()' can be used directly to access them.
+If more fields need to be parsed, `get_value()` can be used directly to access them.
 If the values need modification (ex: capitalizing names), can write a separate function
-that uses 'get_value()'. The final formatted prints take place in 'json_to_normal()'.
+that uses `get_value()`. The final formatted prints take place in `json_to_normal()`.
 
 The OO approach was better for handling subsequent searches for pets if prompted by the user.
 
@@ -33,7 +33,7 @@ Runs in Python 3
 nonstandard libraries used: requests
 
 #### Things I (re)learned during the project:
-- Python doesn't yell at you doing this: '["string", "another string", 598]'
+- Python doesn't yell at you doing this: `["string", "another string", 598]`
 - how good requests library is
 - so many pets!
 
