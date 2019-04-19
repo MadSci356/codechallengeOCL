@@ -190,10 +190,9 @@ class PetSearch:
 def main():
     """usage: petfinderSP.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
 
-    Basic process (see Readme for details):
+    Basic process:
     1) Process arguments (uses argparse)
-    2) Make PetSearch object to request API server
-    if prompted by user (uses requests)
+    2) Make PetSearch object to request API server (uses requests)
     3) Format and output results (either normal or json format)"""
 
     #----(1) Process arguments----#
@@ -228,11 +227,11 @@ def main():
             user_input = ""
             print(f"Searches done: {ps.offset}")
             user_input = input("There could be more pets out there! Look for more? (y/n) ")
-            while (user_input != 'y' and user_input != 'n'):
+            while (user_input not in ['y', 'n']):
                 user_input = input("Invalid input. Look for more pets? (y/n) ")
             if (user_input == 'n'):
                 break
-        else:
+        else: #no more searches
             print("No more results found.")
 
 main()

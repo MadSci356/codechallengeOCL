@@ -25,7 +25,7 @@ if the server returns a error status.
 
 #### Issue with prompting and output redirection
 If the output is redirected to a file with something like:
-`./pysearch.py -l apex,nc -t cat > output.txt`
+`./petsearch.py -l apex,nc -t cat > output.txt`
 
 Here, the prompts to the user will be redirected as well. So once a search finishes,
 terminal will be waiting for a user response for subsequent searches but won't

@@ -3,7 +3,7 @@
 
 import argparse, requests, json
 import sys
-from textwrap import TextWrapper
+import textwrap
 
 
 """
@@ -59,8 +59,8 @@ DEFAULT_COUNT = 25
 def json_to_normal(data, args):
     #search info and summary
     print(f"Searching for {args.type} in {args.location}")
-    global count
-    count = int(data["petfinder"]["lastOffset"]) - count
+    #global count
+    count = int(data["petfinder"]["lastOffset"])
     print(f"Found {count} {args.type} in {args.location}")
     print("Pets:")
     pets = data["petfinder"]["pets"]
@@ -89,14 +89,14 @@ def json_to_normal(data, args):
 
         description = get_value(pet, "description")
         #wrapping and formatting lines
-        wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t', \
-        replace_whitespace=False)
-        wrapped = "\n".join(wrapper.wrap(description))
+        wrapped_text = textwrap.fill(description, width=WRAP_TEXT, \
+                    replace_whitespace=False)
+        indented_wrapped_text = wrapped_text.replace('\n', "\n\t\t")
 
         #printing output
         output = "Name: {} \n\t" + "Age: {} \n\t" + "Sex: {} \n\t" + \
                 "Photo: {}\n\t" + "Description: {}\n\t"
-        print(output.format(name, age, sex, url, wrapped))
+        print(output.format(name, age, sex, url, indented_wrapped_text))
 
 """
     Looks for the value of a given key in the dictionary.
@@ -166,18 +166,16 @@ def main():
         sys.exit(1);
 
     #below extra steps are taken to give user option to try more searches
-
+    #..making a class
     #number of searches
-    last_offset = int(data["petfinder"]["lastOffset"])
-    total_searches = lastOffSet
+    # last_offset = int(data["petfinder"]["lastOffset"])
+    # total_searches = lastOffSet
 
     #----(3) printing the results----#
-    while True:
-        if (args.json): #raw json format
-                print(data)
-        else:
-            json_to_normal(data, args)
-        if ()
+    if (args.json): #raw json format
+            print(data)
+    else:
+        json_to_normal(data, args)
 
 
 main()
