@@ -43,7 +43,7 @@ class PetSearch:
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0
         self.offset = 0
-        self.end_search = False
+        self._end_search = False
          #making the query for the url
         self.query = {'output': 'full',
                     'offset': self.offset,
@@ -55,7 +55,12 @@ class PetSearch:
     def end_search(self):
         """returns whether or search has ended
         (ie returned pets < DEFAULT_COUNT)"""
-        return self.end_search
+        return self._end_search
+
+    @end_search.setter
+    def end_search(self, bool_val):
+        assert(isinstance(bool_val, bool));
+        self._end_search = bool_val
 
     def perform_search(self):
         """Sets data, offset, and end_search field. Checks for error
@@ -70,23 +75,23 @@ class PetSearch:
 
         #error check on API returned data
         self.data = json.loads(response.text) #dictionary
-        status = data["petfinder"]["header"]["status"]
+        status = self.data["petfinder"]["header"]["status"]
         code = int(status["code"])
-        if (code != PFAPI_OK): #error from API
+        if (code != self.PFAPI_OK): #error from API
             print(f'Err: {code} {status["message"]}')
             parser.parse_args(["-h"]) #extra help message
             sys.exit(1);
 
-        #number of hits this search = offset of this search - last
-        self.num_hits = int(data["petfinder"]["lastOffset"]) - self.offset
-        if (self.num_hits < DEFAULT_COUNT):
+        #number of hits this search = offset of this search - last offset
+        self.num_hits = int(self.data["petfinder"]["lastOffset"]) - self.offset
+        if (self.num_hits < self.DEFAULT_COUNT):
             self.end_search = True
 
         #store offset from API
-        self.offset = int(data["petfinder"]["lastOffset"])
+        self.offset = int(self.data["petfinder"]["lastOffset"])
 
     def get_output(self):
-        if (self.json): #raw json format
+        if (self.print_json): #raw json format
             return str(self.data)
         else:
             self.json_to_normal()
@@ -102,32 +107,32 @@ class PetSearch:
 
         #search info and summary
         print(f"Searching for {self.type} in {self.location}")
-        print(f"Found {self.hits} {self.type} in {self.location}")
+        print(f"Found {self.searches} {self.type} in {self.location}")
         print("Pets:")
         pets = self.data["petfinder"]["pets"] #pets dict
 
         #keys to get: age, sex, media.photos[0].url, description
         for pet in pets: #each loop will gather info on a pet and print it
             #get all the relevant fields for a pet
-            name = get_value(pet, "name")
-            if (name != MISS): #capitalize
+            name = self.get_value(pet, ["name"])
+            if (name != self.MISS): #capitalize
                 name = name.capitalize()
 
             #getting age field
-            age = get_value(pet, ["age"])
+            age = self.get_value(pet, ["age"])
             #getting sex field
-            sex = get_value(pet, ["sex"])
+            sex = self.get_value(pet, ["sex"])
 
             #to get url: pet->media->[photos][0]->url
-            photos = get_value(pet, ["media", "photos"] )
-            url = MISS
-            if (photos != MISS and photos != None): #checkin for valid photos
-                url = get_value(photos[0], "url")
+            photos = self.get_value(pet, ["media", "photos"] )
+            url = self.MISS
+            if (photos != self.MISS and photos != None): #checkin for valid photos
+                url = self.get_value(photos[0], "url")
 
             #formatting description text
-            description = get_value(pet, ["description"])
+            description = self.get_value(pet, ["description"])
             #wrapping and formatting lines
-            wrapper = TextWrapper(width=WRAP_TEXT, subsequent_indent='\t\t', \
+            wrapper = TextWrapper(width=self.WRAP_TEXT, subsequent_indent='\t\t', \
             replace_whitespace=False)
             wrapped = "\n".join(wrapper.wrap(description))
 
@@ -137,7 +142,7 @@ class PetSearch:
             print(output.format(name, age, sex, url, wrapped))
 
 
-    def get_value(pet_dict, keys):
+    def get_value(self, pet_dict, keys):
         """Looks for the value of a given keys in a nested dictionary.
         If key not found: catches KeyError and returns the default MISS string
         Also returns MISS if value for a key is null/None
@@ -154,10 +159,10 @@ class PetSearch:
             try:
                 value = value[key]
             except KeyError: #key missing
-                return MISS
+                return self.MISS
             #key exists but check if val is null or of len 0
             if (value == None or len(value) == 0):
-                return MISS
+                return self.MISS
         return value
 #end class
 
