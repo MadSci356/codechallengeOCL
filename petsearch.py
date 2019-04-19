@@ -207,6 +207,7 @@ def main():
     parser.add_argument("-t", "--type", required=True, help=animal_arg_help)
     parser.add_argument("-l", "--location", required=True, help=loc_arg_help)
     parser.add_argument("-j", "--json", help=json_arg_help, action="store_true")
+    #parser.add_argument("-s", "-searchmore", help=more_arg_help, action="store_true")
     args = parser.parse_args()
 
     #----(2) Request the server----#
