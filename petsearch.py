@@ -43,7 +43,7 @@ class PetSearch:
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0
         self.offset = 0
-        self._end_search = False
+        self.end_search = 0 #false initially
          #making the query for the url
         self.query = {'output': 'full',
                     'offset': self.offset,
@@ -51,16 +51,16 @@ class PetSearch:
                     'location': location}
         self.data = {}
 
-    @property
-    def end_search(self):
-        """returns whether or search has ended
-        (ie returned pets < DEFAULT_COUNT)"""
-        return self._end_search
-
-    @end_search.setter
-    def end_search(self, bool_val):
-        assert(isinstance(bool_val, bool));
-        self._end_search = bool_val
+    # @property
+    # def end_search(self):
+    #     """returns whether or search has ended
+    #     (ie returned pets < DEFAULT_COUNT)"""
+    #     return self._end_search
+    #
+    # @end_search.setter
+    # def end_search(self, bool_val):
+    #     assert(isinstance(bool_val, bool));
+    #     self._end_search = bool_val
 
     def perform_search(self):
         """Sets data, offset, and end_search field. Checks for error
@@ -83,8 +83,8 @@ class PetSearch:
             sys.exit(1);
 
         #number of hits this search = offset of this search - last offset
-        self.num_hits = int(self.data["petfinder"]["lastOffset"]) - self.offset
-        if (self.num_hits < self.DEFAULT_COUNT):
+        self.searches = int(self.data["petfinder"]["lastOffset"]) - self.offset
+        if (self.searches < self.DEFAULT_COUNT):
             self.end_search = True
 
         #store offset from API
@@ -126,14 +126,14 @@ class PetSearch:
             #to get url: pet->media->[photos][0]->url
             photos = self.get_value(pet, ["media", "photos"] )
             url = self.MISS
-            if (photos != self.MISS and photos != None): #checkin for valid photos
+            if (photos != self.MISS and photos != None): #check for valid photos
                 url = self.get_value(photos[0], "url")
 
             #formatting description text
             description = self.get_value(pet, ["description"])
             #wrapping and formatting lines
-            wrapper = TextWrapper(width=self.WRAP_TEXT, subsequent_indent='\t\t', \
-            replace_whitespace=False)
+            wrapper = TextWrapper(width=self.WRAP_TEXT, \
+            subsequent_indent='\t\t', replace_whitespace=False)
             wrapped = "\n".join(wrapper.wrap(description))
 
             #printing output
@@ -201,14 +201,13 @@ def main():
 
         #----(3) Printing output----#
         print(ps.get_output())
-
-        #ask user to continue search
         if (not ps.end_search):
             user_input = ""
-            user_input = input("There could be more pets out there! Look for more? (y/n)")
-            while (user_input.lower() != "y" or user_input.lower() != "n"):
-                user_input = input("Invalid input. Look for more pets? (y/n)")
-            if (user_input.lower() == "n"):
+            print(f"Searches done: {ps.offset}")
+            user_input = input("There could be more pets out there! Look for more? (y/n) ")
+            while (user_input != 'y' and user_input != 'n'):
+                user_input = input("Invalid input. Look for more pets? (y/n) ")
+            if (user_input == 'n'):
                 break
         else:
             print("No more results found.")
