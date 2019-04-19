@@ -188,7 +188,7 @@ class PetSearch:
 #end class
 
 def main():
-    """usage: petfinderSP.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
+    """usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
 
     Basic process:
     1) Process arguments (uses argparse)

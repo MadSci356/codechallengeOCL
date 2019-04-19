@@ -5,7 +5,9 @@
 This script performs a search against a REST API to find pets of a certain type
 and from a certain location.
 
-#### Description
+`usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]`
+
+#### Work description
 
 Initially this code was written procedurally. (the old script is in the scripts folder)
 I decided to make it object oriented because it might more flexible and easier to use.
