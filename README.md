@@ -5,7 +5,7 @@
 This script performs a search against a REST API to find pets of a certain type
 and from a certain location.
 
-### Description
+#### Description
 
 Initially this code was written procedurally. (the old script is in the scripts folder)
 I decided to make it object oriented because it might more flexible and easier to use.
@@ -29,12 +29,12 @@ display the prompt on it. I don't know how to fix that quite yet, but will fix i
 find/think of something.
 
 #### Other
-Runs in python3
+Runs in Python 3
 nonstandard libraries used: requests
 
-#### Things I (re)learned during the project
+#### Things I (re)learned during the project:
 - Python doesn't yell at you doing this: '["string", "another string", 598]'
 - how good requests library is
 - so many pets!
 
-# Estimated time spent: 8-9 hours
+### Estimated time spent: 8-9 hours
