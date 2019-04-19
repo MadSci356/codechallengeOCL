@@ -6,25 +6,37 @@
 # search for pets of a given type and from a
 # location.
 #
-# usage: petfinderSP.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
+# usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
 #
-# See comment on main function for basic process
-# and Readme for the details.
+# See docstring on main function for basic process
+# and project Readme for more details.
 #
 # Author: Sayam Patel (sdpate11 AT ncsu.edu)
-# Date created: Apr 17 2019
+# Date created: Apr 18 2019
 #
-# ---------------------------------------------#
+# ----------------------------------------------#
 
 
 import argparse, requests, json
 import sys
-from textwrap import TextWrapper
+import textwrap
 
 
 class PetSearch:
+    """PetSearch class is used to help manage formatting and printing of
+        petfinder API search results. The task of parsing from JSON dictionary
+        to human readable is broken down with the functions in this class.
 
-    #----global constants and vars----#
+        In a production level code the constants and functions here would be
+        private (prefixed with _).
+
+        Further functions can be added for more printed output for a pet search.
+        See get_output().
+
+
+        """
+
+    #----constants----#
 
     #valid search result status from API
     PFAPI_OK = 100
@@ -37,38 +49,35 @@ class PetSearch:
 
 
     def __init__(self, type, location, print_json):
+        """Initializes the PetSearch object with options and search criteria
+            from the user. The user input is parsed separetely in main
+            type: type of animal to search for cat/rabbit/dog
+            location: where to look for a pet
+            print_json: should the search results be outputted in raw JSON
+            format"""
         self.type = type
         self.location = location
         self.print_json = print_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0
         self.offset = 0
-        self.end_search = 0 #false initially
+        self.end_search = False #false initially
          #making the query for the url
-        self.query = {'output': 'full',
-                    'offset': self.offset,
-                    'animal': type,
-                    'location': location}
+        self.query = {"output": "full",
+                    "offset": self.offset,
+                    "animal": type,
+                    "location": location}
         self.data = {}
 
-    # @property
-    # def end_search(self):
-    #     """returns whether or search has ended
-    #     (ie returned pets < DEFAULT_COUNT)"""
-    #     return self._end_search
-    #
-    # @end_search.setter
-    # def end_search(self, bool_val):
-    #     assert(isinstance(bool_val, bool));
-    #     self._end_search = bool_val
-
     def perform_search(self):
-        """Sets data, offset, and end_search field. Checks for error
-            in requesting the search or in the returned API data"""
-        #getting from url
+        """Requests the server for a search. Sets data, offset, and end_search
+        fields. Checks for error in requesting the search or in the returned
+        API data"""
+        #setting up query with the previous offset (initially 0)
         self.query["offset"] = self.offset
-        response = requests.get(self.url, params=self.query)
 
+        #getting from server
+        response = requests.get(self.url, params=self.query)
         #error check on get (connection error)
         if (response.status_code != requests.codes.ok):
             response.raise_for_status()
@@ -114,41 +123,48 @@ class PetSearch:
         #keys to get: age, sex, media.photos[0].url, description
         for pet in pets: #each loop will gather info on a pet and print it
             #get all the relevant fields for a pet
-            name = self.get_value(pet, ["name"])
-            if (name != self.MISS): #capitalize
-                name = name.capitalize()
-
-            #getting age field
+            name = self.get_pet_name(pet)
             age = self.get_value(pet, ["age"])
-            #getting sex field
             sex = self.get_value(pet, ["sex"])
-
-            #to get url: pet->media->[photos][0]->url
-            photos = self.get_value(pet, ["media", "photos"] )
-            url = self.MISS
-            if (photos != self.MISS and photos != None): #check for valid photos
-                url = self.get_value(photos[0], "url")
-
-            #formatting description text
-            description = self.get_value(pet, ["description"])
-            #wrapping and formatting lines
-            wrapper = TextWrapper(width=self.WRAP_TEXT, \
-            subsequent_indent='\t\t', replace_whitespace=False)
-            wrapped = "\n".join(wrapper.wrap(description))
+            url = self.get_value(pet, ["media", "photos", 0, "url"] )
+            wrapped = self.get_pet_description(pet)
 
             #printing output
-            output = "Name: {} \n\t" + "Age: {} \n\t" + "Sex: {} \n\t" + \
-                    "Photo: {}\n\t" + "Description: {}\n\t"
-            print(output.format(name, age, sex, url, wrapped))
+            print(f"Name: {name}")
+            print(f"\tAge: {age}")
+            print(f"\tSex: {sex}")
+            print(f"\tPhoto: {url}")
+            print(f"\tDescription: {wrapped}\n")
 
+
+    def get_pet_description(self, pet):
+        """getting description of pets from data. Wrapping the lines with
+            WRAP_TEXT
+            pet: pet dictionary
+            returns: string of wrapped description"""
+
+        #formatting description text
+        description = self.get_value(pet, ["description"])
+        #wrapping and formatting lines
+        wrapped_text = textwrap.fill(description, width=self.WRAP_TEXT, \
+                    replace_whitespace=False)
+        indented_wrapped_text = wrapped_text.replace('\n', "\n\t\t")
+        return indented_wrapped_text
+
+    def get_pet_name(self, pet):
+        """Returns capitalized name of the pet. If none found, MISS string"""
+        name = self.get_value(pet, ["name"])
+        if (name != self.MISS): #capitalize
+             return name.capitalize()
+        return name
 
     def get_value(self, pet_dict, keys):
         """Looks for the value of a given keys in a nested dictionary.
         If key not found: catches KeyError and returns the default MISS string
         Also returns MISS if value for a key is null/None
-        Ex: keys =  ["media", "photos"]
-        returns: pet_dict["media"]["photos"]. Checking at each level for a valid
-        value.
+        Ex: keys =  ["media", "photos", 0]
+        returns: pet_dict["media"]["photos"][0]. Checking at each level
+        for a valid value.
 
         pet_dict: dictonary to search
         keys: list of keys for the dictionary
@@ -191,7 +207,7 @@ def main():
 
     #----(2) Request the server----#
 
-    #making PetSearch object from input
+    #making PetSearch object from user input
     ps = PetSearch(args.type, args.location, args.json)
 
     #loop for subsequent searches
@@ -201,6 +217,7 @@ def main():
 
         #----(3) Printing output----#
         print(ps.get_output())
+        #----prompting user for further searches---#
         if (not ps.end_search):
             user_input = ""
             print(f"Searches done: {ps.offset}")
