@@ -6,7 +6,8 @@
 # search for pets of a given type and from a
 # location.
 #
-# usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
+# usage: petsearch.py [-h] -t TYPE -l LOCATION [-o OFFSET] [-j]
+
 #
 # See docstring on main function for basic process
 # and project Readme for more details.
@@ -49,19 +50,20 @@ class PetSearch:
     DEFAULT_COUNT = 25
 
 
-    def __init__(self, type, location, use_json):
+    def __init__(self, type, location, use_json, offset=0,):
         """Initializes the PetSearch object with options and search criteria
             from the user. The user input is parsed separetely in main
             type: type of animal to search for cat/rabbit/dog
             location: where to look for a pet
             use_json: should the search results be outputted in raw JSON
+            offset: setting the offset param in request
             format"""
         self.type = type
         self.location = location
         self.use_json = use_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0 #num total searches (tracking if more done)
-        self.offset = 0 #storing prev offset
+        self.offset = offset #storing prev offset
         self.end_search = False #false initially
          #making the query for the url
         self.query = {"output": "full",
@@ -193,7 +195,9 @@ class PetSearch:
 #end class
 
 def main():
-    """usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]
+    """
+    usage: petsearch.py [-h] -t TYPE -l LOCATION [-o OFFSET] [-j]
+
 
     Basic process:
     1) Process arguments (uses argparse)
@@ -204,36 +208,38 @@ def main():
     #----(1) Process arguments----#
     #Description and help strings
     desc = "Simple Pet Finder using Oak City Labs API"
-    animal_arg_help = "Animal type. eg: dog/cat/rabbit"
-    loc_arg_help = "Location to search. eg: Raleigh,NC/Charleston,SC"
-    json_arg_help = "Print out JSON results instead of normal output"
+    animal_help = "Animal type. eg: dog/cat/rabbit"
+    loc_help = "Location to search. eg: Raleigh,NC/Charleston,SC"
+    json_help = "Print out JSON results instead of normal output"
+    offset_help = "offset. sets this number as the offset for the search"
     more_search = "There could be more pets out there! Look for more? (y/n) "
     invalid_more_search = "Invalid input. Search for more pets? (y/n)"
 
     #building arg parse object
     parser = argparse.ArgumentParser(description = desc)
-    parser.add_argument("-t", "--type", required=True, help=animal_arg_help)
-    parser.add_argument("-l", "--location", required=True, help=loc_arg_help)
-    parser.add_argument("-j", "--json", help=json_arg_help, action="store_true")
+    parser.add_argument("-t", "--type", required=True, help=animal_help)
+    parser.add_argument("-l", "--location", required=True, help=loc_help)
+    parser.add_argument("-o", "--offset", help=offset_help, type=int, default=0)
+    parser.add_argument("-j", "--json", help=json_help, action="store_true")
     args = parser.parse_args()
 
     #----(2) Request the server----#
 
     #making PetSearch object from user input
-    ps = PetSearch(args.type, args.location, args.json)
+    ps = PetSearch(args.type, args.location, args.json, args.offset)
 
     #loop for subsequent searches
     while (True):
-        #searching on server
-        if (not ps.perform_search()): #error in search
-            parser.parse_args(["-h"]) #extra help message upon error
+        #searching on server and checking for error
+        if (not ps.perform_search()):
+            parser.print_help(sys.stderr) #extra help message upon error
             sys.exit(1);
         #----(3) Printing output----#
         ps.get_output()
         #----(4) prompting user for further searches---#
         #prompt only if there are more to search and json opt not used
         if ((not ps.end_search) and (not ps.use_json)):
-            sys.stderr.write(f"Searches done: {ps.offset}\n")
+            sys.stderr.write(f"Searches done (lastOffset): {ps.offset}\n")
             sys.stderr.write(more_search) #prompting user without stdout
             user_input = input()
             while (user_input not in ['y', 'n']): #invalid input from user

@@ -5,11 +5,12 @@
 This script performs a search against a REST API to find pets of a certain type
 and from a certain location.
 
-`usage: petsearch.py [-h] --type ANIMAL_TYPE --location LOCATION [--json]`
+`usage: petsearch.py [-h] -t TYPE -l LOCATION [-o OFFSET] [-j]
+`
 
 #### Work description
 
-Initially this code was written procedurally. (the old script is in the scripts folder)
+Initially this code was written procedurally (the old script in `/scripts`).
 I decided to make it object oriented because it might be more flexible and easier to use.
 
 #### Adding more formatted text
@@ -20,12 +21,20 @@ that uses `get_value()`. The final formatted prints take place in `json_to_norma
 The OO approach was better for handling subsequent searches for pets if prompted by the user.
 
 #### Subsequent searches
-When a search is complete, the user is prompted:
-`There could be more pets out there! Look for more? (y/n)` to either continue or stop searching.
+There are two options for this:
+
+1. After a search a user will be prompted:
+
+`> There could be more pets out there! Look for more? (y/n) ` to either continue or stop searching.
 The prompt will keep occurring until either the returned number of searches is < 25 or
-if the server returns a error status.
+if the server returns an error status.
 
 **Note**: Cannot use -j/--json option with this feature.
+
+2. Use the `-o/--offset` to print the next 25 searches from the given offset.
+
+Example: `/petsearch.py -l apex,nc -t cat -o 1500`
+will print search results from 1500 to 1525 of cats in Apex, NC
 
 #### Prompting and output redirection
 If the output is redirected to a file with something like:
@@ -36,7 +45,7 @@ terminal will be waiting for a user response for subsequent searches but won't
 display the prompt to enter "y/n". I don't know how to fix that quite yet,
 but will modify it I find/think of something.
 
-**Edit**: fixed this issue by printing the prompts to `stderr` stream.
+**Edit**: fixed this issue by printing the prompts to `stderr` stream. output.txt will only contain the formatted text.
 
 #### Other
 Runs in Python 3
