@@ -23,10 +23,10 @@ The OO approach was better for handling subsequent searches for pets if prompted
 #### Subsequent searches
 There are two options for this:
 
-1. After a search a user will be prompted:
+1. After a search, user will be prompted:
 
 `> There could be more pets out there! Look for more? (y/n) ` to either continue or stop searching.
-The prompt will keep occurring until either the returned number of searches is < 25 or
+The prompt will reoccur after each search until either the returned number of searches is < 25 or
 if the server returns an error status.
 
 **Note**: Cannot use -j/--json option with this feature.
@@ -40,12 +40,7 @@ will print search results from 1500 to 1525 of cats in Apex, NC
 If the output is redirected to a file with something like:
 `./petsearch.py -l apex,nc -t cat > output.txt`
 
-Here, the prompts to the user will be redirected as well. So once a search finishes,
-terminal will be waiting for a user response for subsequent searches but won't
-display the prompt to enter "y/n". I don't know how to fix that quite yet,
-but will modify it I find/think of something.
-
-**Edit**: fixed this issue by printing the prompts to `stderr` stream. output.txt will only contain the formatted text.
+Only prompts to the user for more searches will be displayed in terminal. output.txt will have the formatted output.
 
 #### Other
 Runs in Python 3
