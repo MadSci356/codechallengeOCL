@@ -49,16 +49,16 @@ class PetSearch:
     DEFAULT_COUNT = 25
 
 
-    def __init__(self, type, location, print_json):
+    def __init__(self, type, location, use_json):
         """Initializes the PetSearch object with options and search criteria
             from the user. The user input is parsed separetely in main
             type: type of animal to search for cat/rabbit/dog
             location: where to look for a pet
-            print_json: should the search results be outputted in raw JSON
+            use_json: should the search results be outputted in raw JSON
             format"""
         self.type = type
         self.location = location
-        self.print_json = print_json
+        self.use_json = use_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
         self.searches = 0 #num total searches (tracking if more done)
         self.offset = 0 #storing prev offset
@@ -108,8 +108,8 @@ class PetSearch:
 
     def get_output(self):
         """Prints gets search results either in JSON or normal format depending
-        on print_json field """
-        if (self.print_json):
+        on use_json field """
+        if (self.use_json):
             print(self.response.text) #raw json format
         else:
             self.json_to_normal()
@@ -199,7 +199,7 @@ def main():
     1) Process arguments (uses argparse)
     2) Make PetSearch object to request API server (uses requests)
     3) Format and output results (either normal or json format)
-    4) Prompt user to more searches if there could be more hits on the server"""
+    4) If json format not used, prompt user for further searches"""
 
     #----(1) Process arguments----#
     #Description and help strings
@@ -232,7 +232,7 @@ def main():
         ps.get_output()
         #----(4) prompting user for further searches---#
         #prompt only if there are more to search and json opt not used
-        if (not (ps.end_search or ps.print_json)):
+        if ((not ps.end_search) and (not ps.use_json)):
             sys.stderr.write(f"Searches done: {ps.offset}\n")
             sys.stderr.write(more_search) #prompting user without stdout
             user_input = input()
@@ -242,6 +242,7 @@ def main():
             if (user_input == 'n'): #user says no
                 break
         else: #no more searches
-            print("No more results found.")
+            sys.stderr.write("No more results found.\n")
+            break
 
 main()
