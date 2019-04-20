@@ -31,7 +31,7 @@ class PetSearch:
         Stores attributes that help perform subsequent searches on a criteria
         after the initial (by default 25) search.
 
-        In a production level code the constants and functions here would be
+        In a production level code the constants and some functions here would be
         private (prefixed with _) and tested with formal test unit cases.
 
         Further functions can be added for more printed output for a pet search.
