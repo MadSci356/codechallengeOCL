@@ -27,8 +27,11 @@ class PetSearch:
         petfinder API search results. The task of parsing from JSON dictionary
         to human readable is broken down with the functions in this class.
 
+        Stores attributes that help perform subsequent searches on a criteria
+        after the initial (by default 25) search.
+
         In a production level code the constants and functions here would be
-        private (prefixed with _).
+        private (prefixed with _) and tested with formal test unit cases.
 
         Further functions can be added for more printed output for a pet search.
         See get_output().
@@ -57,40 +60,41 @@ class PetSearch:
         self.location = location
         self.print_json = print_json
         self.url = 'https://q93x2sq2y7.execute-api.us-east-1.amazonaws.com/staging/pet.find'
-        self.searches = 0
-        self.offset = 0
+        self.searches = 0 #num total searches (tracking if more done)
+        self.offset = 0 #storing prev offset
         self.end_search = False #false initially
          #making the query for the url
         self.query = {"output": "full",
                     "offset": self.offset,
                     "animal": self.type,
                     "location": self.location}
-        self.data = {}
+        self.response = "" #Response object from requests from server
+        self.data = {} #dictionary of response
 
     def perform_search(self):
-        """Requests the server for a search. Sets data, offset, and end_search
-        fields. Checks for error in requesting the search or in the returned
-        API data
+        """Requests the server for a search. Updates data, offset, and end_search
+        fields based on the current search. Checks for error in requesting
+        the search or in the returned API data.
         returns: True on a successful search, False otherwise"""
         #setting up query with the previous offset (initially 0)
         self.query["offset"] = self.offset
 
         #getting from server
-        response = requests.get(self.url, params=self.query)
+        self.response = requests.get(self.url, params=self.query)
         #error check on get (connection error)
-        if (response.status_code != requests.codes.ok):
-            response.raise_for_status()
+        if (self.response.status_code != requests.codes.ok):
+            self.response.raise_for_status()
 
         #error check on API returned data
-        self.data = json.loads(response.text) #dictionary
 
-        #code: data.petfinder.header.status.code
+        self.data = json.loads(self.response.text) #dictionary
+
+        #error code at: data.petfinder.header.status.code
         status = self.data["petfinder"]["header"]["status"]
         code = int(status["code"])
         if (code != self.PFAPI_OK): #error from API
-            print(f'API Error: {code} {status["message"]}\n')
-            return False
-
+            sys.stderr.write(f'API Error: {code} {status["message"]}\n')
+            return False #bad search
 
         #number of hits this search = offset of this search - last offset
         self.searches = int(self.data["petfinder"]["lastOffset"]) - self.offset
@@ -103,10 +107,10 @@ class PetSearch:
         return True #search done
 
     def get_output(self):
-        """gets search results either in JSON or normal format depending on
-            print_json field """
-        if (self.print_json): #raw json format
-            return str(self.data)
+        """Prints gets search results either in JSON or normal format depending
+        on print_json field """
+        if (self.print_json):
+            print(self.response.text) #raw json format
         else:
             self.json_to_normal()
 
@@ -117,11 +121,12 @@ class PetSearch:
 
         Fields from pets printed: Name, Age, Sex, Photo url, description
 
-        NOTE: dict assumed to be valid (ie petfinder->header->status-> = 100)"""
+        NOTE: dict assumed to be valid
+        (ie petfinder->header->status->code = 100)"""
 
-        #search info and summary
-        print(f"Searching for {self.type} in {self.location}")
-        print(f"Found {self.searches} {self.type} in {self.location}")
+        #search info and summary print
+        print(f"Searching for {self.type}s in {self.location}")
+        print(f"Found {self.searches} {self.type}s in {self.location}")
         print("Pets:")
         pets = self.data["petfinder"]["pets"] #pets dict
 
@@ -193,7 +198,8 @@ def main():
     Basic process:
     1) Process arguments (uses argparse)
     2) Make PetSearch object to request API server (uses requests)
-    3) Format and output results (either normal or json format)"""
+    3) Format and output results (either normal or json format)
+    4) Prompt user to more searches if there could be more hits on the server"""
 
     #----(1) Process arguments----#
     #Description and help strings
@@ -201,13 +207,14 @@ def main():
     animal_arg_help = "Animal type. eg: dog/cat/rabbit"
     loc_arg_help = "Location to search. eg: Raleigh,NC/Charleston,SC"
     json_arg_help = "Print out JSON results instead of normal output"
+    more_search = "There could be more pets out there! Look for more? (y/n) "
+    invalid_more_search = "Invalid input. Search for more pets? (y/n)"
 
     #building arg parse object
     parser = argparse.ArgumentParser(description = desc)
     parser.add_argument("-t", "--type", required=True, help=animal_arg_help)
     parser.add_argument("-l", "--location", required=True, help=loc_arg_help)
     parser.add_argument("-j", "--json", help=json_arg_help, action="store_true")
-    #parser.add_argument("-s", "-searchmore", help=more_arg_help, action="store_true")
     args = parser.parse_args()
 
     #----(2) Request the server----#
@@ -222,15 +229,17 @@ def main():
             parser.parse_args(["-h"]) #extra help message upon error
             sys.exit(1);
         #----(3) Printing output----#
-        print(ps.get_output())
-        #----prompting user for further searches---#
-        if (not ps.end_search):
-            user_input = ""
-            print(f"Searches done: {ps.offset}")
-            user_input = input("There could be more pets out there! Look for more? (y/n) ")
-            while (user_input not in ['y', 'n']):
-                user_input = input("Invalid input. Look for more pets? (y/n) ")
-            if (user_input == 'n'):
+        ps.get_output()
+        #----(4) prompting user for further searches---#
+        #prompt only if there are more to search and json opt not used
+        if (not (ps.end_search or ps.print_json)):
+            sys.stderr.write(f"Searches done: {ps.offset}\n")
+            sys.stderr.write(more_search) #prompting user without stdout
+            user_input = input()
+            while (user_input not in ['y', 'n']): #invalid input from user
+                sys.stderr.write(invalid_more_search)
+                user_input = input()
+            if (user_input == 'n'): #user says no
                 break
         else: #no more searches
             print("No more results found.")

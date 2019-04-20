@@ -1,6 +1,6 @@
 # codechallengeOCL
 
-## Pet Search Code Challenge
+## Pet Search
 
 This script performs a search against a REST API to find pets of a certain type
 and from a certain location.
@@ -34,13 +34,16 @@ terminal will be waiting for a user response for subsequent searches but won't
 display the prompt to enter "y/n". I don't know how to fix that quite yet,
 but will modify it I find/think of something.
 
+**EDIT**: fixed this issue by printing the prompts to `stderr` stream.
+
 #### Other
 Runs in Python 3
-nonstandard libraries used: requests
+
+Nonstandard libraries used: requests
 
 #### Things I (re)learned during the project:
 - Python doesn't yell at for you doing this: `["string", "another string", 598]`
 - how good the requests library is
 - so many pets!
 
-#### Estimated time spent: 8-9 hours
+#### Estimated time spent: 10 hours
